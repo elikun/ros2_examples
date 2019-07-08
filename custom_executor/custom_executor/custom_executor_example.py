@@ -12,14 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from concurrent.futures import ThreadPoolExecutor
 import os
+from concurrent.futures import ThreadPoolExecutor
 
 from packt_rclpy_demo.subscriber_member_function import Listener
-from packt_rclpy_demo.publisher_member_function import MinimalPublisher
+from packt_rclpy_demo.publisher_member_function import Publisher
+
 import rclpy
-from rclpy.executors import Executor
 from rclpy.node import Node
+from rclpy.executors import Executor
+
 from std_msgs.msg import String
 
 
@@ -82,7 +84,7 @@ def main(args=None):
     rclpy.init(args=args)
     try:
         listener = Listener()
-        talker = MinimalPublisher()
+        talker = Publisher()
         estopper = Estopper()
 
         executor = PriorityExecutor()

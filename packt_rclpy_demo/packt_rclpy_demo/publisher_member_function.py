@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
-class MinimalPublisher(Node):
+class Publisher(Node):
   
   def __init__(self):
     super().__init__('talker')
@@ -22,10 +22,10 @@ def main(args=None):
   rclpy.init(args=args)
 
   try:
-    minimal_publisher = MinimalPublisher()
-    rclpy.spin(minimal_publisher)
+    publisher = Publisher()
+    rclpy.spin(publisher)
   finally:
-    minimal_publisher.destroy_node()
+    publisher.destroy_node()
     rclpy.shutdown()
 
 if __name__ == 'main':

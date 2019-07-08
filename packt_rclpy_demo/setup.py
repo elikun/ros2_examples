@@ -19,7 +19,7 @@ setup(
     author_email="packt@todo.todo",
     maintainer='packt',
     maintainer_email="packt@todo.todo",
-    keywords=['ROS2', 'packt', 'rclpy', 'publisher', 'demo'],
+    keywords=['ROS2', 'packt', 'rclpy', 'publisher', 'subscriber', 'demo'],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
