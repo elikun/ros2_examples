@@ -51,7 +51,8 @@ class PriorityExecutor(Executor):
 
     def add_high_priority_node(self, node):
         self.high_priority_nodes.add(node)
-        # add_node inherited
+        # Add a node whose callbacks should be managed by this executor.
+        # http://docs.ros2.org/crystal/api/rclpy/api/execution_and_callbacks.html#rclpy.executors.Executor.add_node
         self.add_node(node)
 
     def spin_once(self, timeout_sec=None):
