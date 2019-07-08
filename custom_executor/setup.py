@@ -2,18 +2,14 @@ from setuptools import setup
 
 package_name = 'custom_executor'
 # py_modules
-# LISTENER = 'scripts.listener'
-# TALKER = 'scripts.talker'
-CUSTOM_EXECUTOR = 'custom_executor.custom_executor_example'
+custom_executor = 'custom_executor.custom_executor_example'
 
 setup(
     name=package_name,
     version='0.0.0',
     packages=['custom_executor'],
     py_modules=[
-      # LISTENER,
-      # TALKER,
-      CUSTOM_EXECUTOR,
+      custom_executor,
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -33,9 +29,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'listener = {}:main'.format(LISTENER),
-            # 'talker = {}:main'.format(TALKER),
-            'custom_executor_example = {}:main'.format(CUSTOM_EXECUTOR)
+            'custom_executor_example = {}:main'.format(custom_executor),
         ],
     },
 )

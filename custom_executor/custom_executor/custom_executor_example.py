@@ -81,7 +81,6 @@ class PriorityExecutor(Executor):
 def main(args=None):
     rclpy.init(args=args)
     try:
-        pass
         listener = Listener()
         talker = MinimalPublisher()
         estopper = Estopper()
