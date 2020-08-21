@@ -1,17 +1,18 @@
 from setuptools import setup
 
 package_name = 'packt_rclpy_demo'
-# py modules
-member_function = 'packt_rclpy_demo.publisher_member_function'
-listener = 'packt_rclpy_demo.subscriber_member_function'
+
+# Python modules
+publisher = 'packt_rclpy_demo.publisher'
+subscriber = 'packt_rclpy_demo.subscriber'
 
 setup(
     name=package_name,
     version='0.0.0',
     packages=['packt_rclpy_demo'],
     py_modules=[
-      member_function,
-      listener
+      publisher,
+      subscriber,
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -31,8 +32,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-          'talker = {}:main'.format(member_function),
-          'listener = {}:main'.format(listener)
+          'talker = {}:main'.format(publisher),
+          'listener = {}:main'.format(subscriber),
         ],
     },
 )
