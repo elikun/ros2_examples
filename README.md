@@ -2,11 +2,13 @@
 
 - Forked from https://github.com/eborghi10/ros2_examples
 - Examples using ROS 2 for the Packt video course "ROS 2 - New Features".
-- Course Link: https://learning.oreilly.com/videos/ros-2-new/9781838552893 (requires O'Reilly account). Highly recommended course!
 - Updated to support ROS 2 Foxy Fitzroy.
     - Major updates starting from ROS 2 Dashing Diademata:
         - https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/#changes-to-creating-publishers-and-subscriptions
         - https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/#changes-to-creating-publishers-subscriptions-and-qos-profiles
+- Course Link: https://learning.oreilly.com/videos/ros-2-new/9781838552893 (requires O'Reilly account). Highly recommended course!
+
+![cover](./docs/cover.jpg)
 
 ---
 
@@ -45,7 +47,7 @@ C:\> docker exec -it <container-identifier> bash
 
 1. Compile with ROS 2's colcon build tool
 ```bash
-root@123456abcdef:/colcon_ws# colcon build --event-handlers console_direct+
+root@123456abcdef:/colcon_ws# colcon build --event-handlers console_direct+ |& tee colcon_build.log
 ```
 
 2. Source installed files
@@ -70,7 +72,7 @@ root@123456abcdef:/colcon_ws# ros2 run packt_rclcpp_demo talker
 
 1. Compile with ROS 2's colcon build tool
 ```bash
-root@123456abcdef:/colcon_ws# colcon build --event-handlers console_direct+
+root@123456abcdef:/colcon_ws# colcon build --event-handlers console_direct+ |& tee colcon_build.log
 ```
 
 2. Source installed files
