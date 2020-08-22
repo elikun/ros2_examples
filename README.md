@@ -30,7 +30,7 @@ C:\> docker pull ros
 
 2. Mount this repository's files to /colcon_ws/src in the Docker container
 ```console
-C:\> docker run -it --rm -v /c/ros2_examples:/colcon_ws/src ros
+C:\> docker run -it --rm -v /c/ros2_examples:/colcon_ws ros
 ```
 
 3. Open up another bash terminal when needed to start another ROS 2 node.
