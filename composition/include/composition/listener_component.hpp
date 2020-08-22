@@ -25,8 +25,7 @@ namespace composition
 class Listener : public rclcpp::Node
 {
 public:
-  COMPOSITION_PUBLIC
-  explicit Listener();
+  COMPOSITION_PUBLIC Listener(rclcpp::NodeOptions options);
 
 private:
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;

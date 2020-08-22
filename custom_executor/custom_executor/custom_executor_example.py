@@ -15,13 +15,13 @@
 import os
 from concurrent.futures import ThreadPoolExecutor
 
-from packt_rclpy_demo.subscriber_member_function import Listener
-from packt_rclpy_demo.publisher_member_function import Publisher
+from packt_rclpy_demo.subscriber import Subscriber
+from packt_rclpy_demo.publisher import Publisher
 
 import rclpy
 from rclpy.node import Node
 from rclpy.executors import Executor
-
+from rclpy.qos import QoSHistoryPolicy, QoSProfile
 from std_msgs.msg import String
 
 
@@ -29,7 +29,11 @@ class Estopper(Node):
 
     def __init__(self):
         super().__init__('estopper')
-        self.sub = self.create_subscription(String, 'estop', self.estop_callback)
+
+        # Configure QoS profile
+        qos_profile = QoSProfile(history=QoSHistoryPolicy.RMW_QOS_POLICY_HISTORY_KEEP_LAST, depth=10)
+
+        self.subscription = self.create_subscription(String, 'estop', self.estop_callback, qos_profile)
 
     def estop_callback(self, msg):
         self.get_logger().info('I heard: "%s"' % msg.data)
@@ -83,7 +87,7 @@ class PriorityExecutor(Executor):
 def main(args=None):
     rclpy.init(args=args)
     try:
-        listener = Listener()
+        listener = Subscriber()
         talker = Publisher()
         estopper = Estopper()
 

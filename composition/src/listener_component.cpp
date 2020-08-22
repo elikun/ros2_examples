@@ -26,8 +26,8 @@ namespace composition
 // Create a Listener "component" that subclasses the generic rclcpp::Node base class.
 // Components get built into shared libraries and as such do not write their own main functions.
 // The process using the component's shared library will instantiate the class as a ROS node.
-Listener::Listener()
-: Node("listener")
+Listener::Listener(rclcpp::NodeOptions options)
+: Node("listener", options)
 {
   // Create a callback function for when messages are received.
   // Variations of this function also exist using, for example, UniquePtr for zero-copy transport.
@@ -38,20 +38,25 @@ Listener::Listener()
       std::flush(std::cout);
     };
 
+  // Configure QoS settings
+  rmw_qos_history_policy_t history_policy_arg = RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+  size_t depth_arg = 10;
+  rclcpp::QoS qos(rclcpp::QoSInitialization(history_policy_arg, depth_arg));
+
   // Create a subscription to the "chatter" topic which can be matched with one or more
   // compatible ROS publishers.
   // Note that not all publishers on the same topic with the same type will be compatible:
   // they must have compatible Quality of Service policies.
-  sub_ = create_subscription<std_msgs::msg::String>("chatter", callback);
+  sub_ = this->create_subscription<std_msgs::msg::String>("chatter", qos, callback);
 }
 
 }  // namespace composition
 
-// #include "rclcpp_components/register_node_macro.hpp"
-#include "class_loader/register_macro.hpp"
+#include "rclcpp_components/register_node_macro.hpp"
+// #include "class_loader/register_macro.hpp"
 
 // Register the component with class_loader.
 // This acts as a sort of entry point, allowing the component to be discoverable when its library
 // is being loaded into a running process.
-// RCLCPP_COMPONENTS_REGISTER_NODE(composition::Listener)
-CLASS_LOADER_REGISTER_CLASS(composition::Listener, rclcpp::Node)
+RCLCPP_COMPONENTS_REGISTER_NODE(composition::Listener)
+// CLASS_LOADER_REGISTER_CLASS(composition::Listener, rclcpp::Node)

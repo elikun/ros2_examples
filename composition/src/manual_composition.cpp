@@ -33,11 +33,13 @@ int main(int argc, char * argv[])
   // With this version, all callbacks will be called from within this thread (the main one).
   rclcpp::executors::SingleThreadedExecutor exec;
 
+  rclcpp::NodeOptions options;
+
   // Add some nodes to the executor which provide work for the executor during its "spin" function.
   // An example of available work is executing a subscription callback, or a timer callback.
-  auto talker = std::make_shared<composition::Talker>();
+  auto talker = std::make_shared<composition::Talker>(options);
   exec.add_node(talker);
-  auto listener = std::make_shared<composition::Listener>();
+  auto listener = std::make_shared<composition::Listener>(options);
   exec.add_node(listener);
 
   // spin will block until work comes in, execute work as it becomes available, and keep blocking.
