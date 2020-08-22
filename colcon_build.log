@@ -1,0 +1,228 @@
+Starting >>> packt_rclpy_demo
+[1.047s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.061s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+running egg_info
+creating /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info
+writing /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/PKG-INFO
+writing dependency_links to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/dependency_links.txt
+writing entry points to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/entry_points.txt
+writing requirements to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/requires.txt
+writing top-level names to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/top_level.txt
+writing manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'
+reading manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'
+writing manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /colcon_ws/build/packt_rclpy_demo/build
+creating /colcon_ws/build/packt_rclpy_demo/build/lib
+creating /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+copying packt_rclpy_demo/__init__.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+copying packt_rclpy_demo/publisher.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+copying packt_rclpy_demo/subscriber.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+running install
+running install_lib
+creating /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/publisher.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/subscriber.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/__init__.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/publisher.py to publisher.cpython-38.pyc
+byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/subscriber.py to subscriber.cpython-38.pyc
+byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/__init__.py to __init__.cpython-38.pyc
+running install_egg_info
+Copying /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info to /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
+Installing talker script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
+writing list of installed files to '/colcon_ws/build/packt_rclpy_demo/install.log'
+Finished <<< packt_rclpy_demo [1.77s]
+Starting >>> composition
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found class_loader: 2.0.1 (/opt/ros/foxy/share/class_loader/cmake)
+-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 2.1.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /colcon_ws/build/composition
+Scanning dependencies of target talker_component
+[ 16%] Building CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o
+[ 33%] Linking CXX shared library libtalker_component.so
+[ 33%] Built target talker_component
+Scanning dependencies of target listener_component
+[ 50%] Building CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o
+[ 66%] Linking CXX shared library liblistener_component.so
+[ 66%] Built target listener_component
+Scanning dependencies of target manual_composition
+[Processing: composition]
+[ 83%] Building CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o
+[100%] Linking CXX executable manual_composition
+[100%] Built target manual_composition
+-- Install configuration: ""
+-- Installing: /colcon_ws/install/composition/lib/libtalker_component.so
+-- Set runtime path of "/colcon_ws/install/composition/lib/libtalker_component.so" to ""
+-- Installing: /colcon_ws/install/composition/lib/liblistener_component.so
+-- Set runtime path of "/colcon_ws/install/composition/lib/liblistener_component.so" to ""
+-- Installing: /colcon_ws/install/composition/lib/composition/manual_composition
+-- Set runtime path of "/colcon_ws/install/composition/lib/composition/manual_composition" to ""
+-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
+-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
+-- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.sh
+-- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.dsv
+-- Installing: /colcon_ws/install/composition/share/composition/environment/path.sh
+-- Installing: /colcon_ws/install/composition/share/composition/environment/path.dsv
+-- Installing: /colcon_ws/install/composition/share/composition/local_setup.bash
+-- Installing: /colcon_ws/install/composition/share/composition/local_setup.sh
+-- Installing: /colcon_ws/install/composition/share/composition/local_setup.zsh
+-- Installing: /colcon_ws/install/composition/share/composition/local_setup.dsv
+-- Installing: /colcon_ws/install/composition/share/composition/package.dsv
+-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/packages/composition
+-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/rclcpp_components/composition
+-- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig.cmake
+-- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig-version.cmake
+-- Installing: /colcon_ws/install/composition/share/composition/package.xml
+Finished <<< composition [35.5s]
+Starting >>> packt_rclcpp_demo
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /colcon_ws/build/packt_rclcpp_demo
+Scanning dependencies of target listener
+[ 25%] Building CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o
+[ 50%] Linking CXX executable listener
+[ 50%] Built target listener
+Scanning dependencies of target talker
+[ 75%] Building CXX object CMakeFiles/talker.dir/src/publisher.cpp.o
+[100%] Linking CXX executable talker
+[Processing: packt_rclcpp_demo]
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker
+-- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker" to ""
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener
+-- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener" to ""
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/package_run_dependencies/packt_rclcpp_demo
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/parent_prefix_path/packt_rclcpp_demo
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.sh
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.dsv
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.sh
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.dsv
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.bash
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.sh
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.zsh
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.dsv
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.dsv
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/packages/packt_rclcpp_demo
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig.cmake
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig-version.cmake
+-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.xml
+Finished <<< packt_rclcpp_demo [36.8s]
+Starting >>> custom_executor
+[91.480s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[91.683s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+running egg_info
+creating /colcon_ws/build/custom_executor/custom_executor.egg-info
+writing /colcon_ws/build/custom_executor/custom_executor.egg-info/PKG-INFO
+writing dependency_links to /colcon_ws/build/custom_executor/custom_executor.egg-info/dependency_links.txt
+writing entry points to /colcon_ws/build/custom_executor/custom_executor.egg-info/entry_points.txt
+writing requirements to /colcon_ws/build/custom_executor/custom_executor.egg-info/requires.txt
+writing top-level names to /colcon_ws/build/custom_executor/custom_executor.egg-info/top_level.txt
+writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+reading manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /colcon_ws/build/custom_executor/build
+creating /colcon_ws/build/custom_executor/build/lib
+creating /colcon_ws/build/custom_executor/build/lib/custom_executor
+copying custom_executor/__init__.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor
+copying custom_executor/custom_executor_example.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor
+running install
+running install_lib
+creating /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+copying /colcon_ws/build/custom_executor/build/lib/custom_executor/custom_executor_example.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+copying /colcon_ws/build/custom_executor/build/lib/custom_executor/__init__.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/custom_executor_example.py to custom_executor_example.cpython-38.pyc
+byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/__init__.py to __init__.cpython-38.pyc
+running install_egg_info
+Copying /colcon_ws/build/custom_executor/custom_executor.egg-info to /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor-0.0.0-py3.8.egg-info
+running install_scripts
+Installing custom_executor_example script to /colcon_ws/install/custom_executor/lib/custom_executor
+writing list of installed files to '/colcon_ws/build/custom_executor/install.log'
+Finished <<< custom_executor [23.0s]
+
+Summary: 4 packages finished [1min 38s]

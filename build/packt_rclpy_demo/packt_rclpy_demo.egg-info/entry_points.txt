@@ -1,0 +1,4 @@
+[console_scripts]
+listener = packt_rclpy_demo.subscriber:main
+talker = packt_rclpy_demo.publisher:main
+

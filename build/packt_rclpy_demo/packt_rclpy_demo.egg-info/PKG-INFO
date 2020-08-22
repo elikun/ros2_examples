@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: packt-rclpy-demo
+Version: 0.0.0
+Summary: TODO: Package description.
+Home-page: UNKNOWN
+Author: packt
+Author-email: packt@todo.todo
+Maintainer: packt
+Maintainer-email: packt@todo.todo
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: ROS2,packt,rclpy,publisher,subscriber,demo
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

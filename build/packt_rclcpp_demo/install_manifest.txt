@@ -1,0 +1,17 @@
+/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker
+/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener
+/colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/package_run_dependencies/packt_rclcpp_demo
+/colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/parent_prefix_path/packt_rclcpp_demo
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.sh
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.dsv
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.sh
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.dsv
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.bash
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.sh
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.zsh
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.dsv
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.dsv
+/colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/packages/packt_rclcpp_demo
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig.cmake
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig-version.cmake
+/colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/colcon_ws/build/packt_rclcpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/packt_rclcpp_demo -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/packt_rclcpp_demo
+Invoked command in '/colcon_ws/build/packt_rclcpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/packt_rclcpp_demo -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/packt_rclcpp_demo
+Invoking command in '/colcon_ws/build/packt_rclcpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/packt_rclcpp_demo -- -j1 -l1
+Invoked command in '/colcon_ws/build/packt_rclcpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/packt_rclcpp_demo -- -j1 -l1
+Invoking command in '/colcon_ws/build/packt_rclcpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/packt_rclcpp_demo
+Invoked command in '/colcon_ws/build/packt_rclcpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/packt_rclcpp_demo

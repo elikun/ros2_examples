@@ -1,0 +1,3 @@
+[console_scripts]
+custom_executor_example = custom_executor.custom_executor_example:main
+

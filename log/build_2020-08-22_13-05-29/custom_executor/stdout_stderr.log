@@ -1,0 +1,29 @@
+running egg_info
+creating /colcon_ws/build/custom_executor/custom_executor.egg-info
+writing /colcon_ws/build/custom_executor/custom_executor.egg-info/PKG-INFO
+writing dependency_links to /colcon_ws/build/custom_executor/custom_executor.egg-info/dependency_links.txt
+writing entry points to /colcon_ws/build/custom_executor/custom_executor.egg-info/entry_points.txt
+writing requirements to /colcon_ws/build/custom_executor/custom_executor.egg-info/requires.txt
+writing top-level names to /colcon_ws/build/custom_executor/custom_executor.egg-info/top_level.txt
+writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+reading manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /colcon_ws/build/custom_executor/build
+creating /colcon_ws/build/custom_executor/build/lib
+creating /colcon_ws/build/custom_executor/build/lib/custom_executor
+copying custom_executor/__init__.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor
+copying custom_executor/custom_executor_example.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor
+running install
+running install_lib
+creating /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+copying /colcon_ws/build/custom_executor/build/lib/custom_executor/custom_executor_example.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+copying /colcon_ws/build/custom_executor/build/lib/custom_executor/__init__.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/custom_executor_example.py to custom_executor_example.cpython-38.pyc
+byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/__init__.py to __init__.cpython-38.pyc
+running install_egg_info
+Copying /colcon_ws/build/custom_executor/custom_executor.egg-info to /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor-0.0.0-py3.8.egg-info
+running install_scripts
+Installing custom_executor_example script to /colcon_ws/install/custom_executor/lib/custom_executor
+writing list of installed files to '/colcon_ws/build/custom_executor/install.log'
