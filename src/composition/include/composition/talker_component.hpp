@@ -25,7 +25,8 @@ namespace composition
 class Talker : public rclcpp::Node
 {
 public:
-  COMPOSITION_PUBLIC Talker(rclcpp::NodeOptions options);
+  COMPOSITION_PUBLIC
+  explicit Talker(const rclcpp::NodeOptions& options);
 
 protected:
   void on_timer();

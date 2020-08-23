@@ -1,0 +1,35 @@
+[0.739s] Invoking command in '/colcon_ws/src/packt_rclpy_demo': PYTHONPATH=/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /colcon_ws/build/packt_rclpy_demo build --build-base /colcon_ws/build/packt_rclpy_demo/build install --prefix /colcon_ws/install/packt_rclpy_demo --record /colcon_ws/build/packt_rclpy_demo/install.log --single-version-externally-managed
+[1.322s] running egg_info
+[1.326s] creating /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info
+[1.339s] writing /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/PKG-INFO
+[1.349s] writing dependency_links to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/dependency_links.txt
+[1.361s] writing entry points to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/entry_points.txt
+[1.367s] writing requirements to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/requires.txt
+[1.373s] writing top-level names to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/top_level.txt
+[1.387s] writing manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'
+[1.753s] reading manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'
+[1.785s] writing manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'
+[1.791s] running build
+[1.792s] running build_py
+[1.798s] creating /colcon_ws/build/packt_rclpy_demo/build
+[1.801s] creating /colcon_ws/build/packt_rclpy_demo/build/lib
+[1.805s] creating /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+[1.813s] copying packt_rclpy_demo/__init__.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+[1.828s] copying packt_rclpy_demo/publisher.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+[1.845s] copying packt_rclpy_demo/subscriber.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo
+[1.880s] running install
+[1.886s] running install_lib
+[1.900s] creating /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+[1.912s] copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/publisher.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+[1.934s] copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/subscriber.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+[1.953s] copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/__init__.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo
+[1.975s] byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/publisher.py to publisher.cpython-38.pyc
+[2.000s] byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/subscriber.py to subscriber.cpython-38.pyc
+[2.022s] byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/__init__.py to __init__.cpython-38.pyc
+[2.042s] running install_egg_info
+[2.051s] Copying /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info to /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo-0.0.0-py3.8.egg-info
+[2.189s] running install_scripts
+[2.237s] Installing listener script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
+[2.245s] Installing talker script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
+[2.258s] writing list of installed files to '/colcon_ws/build/packt_rclpy_demo/install.log'
+[2.300s] Invoked command in '/colcon_ws/src/packt_rclpy_demo' returned '0': PYTHONPATH=/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /colcon_ws/build/packt_rclpy_demo build --build-base /colcon_ws/build/packt_rclpy_demo/build install --prefix /colcon_ws/install/packt_rclpy_demo --record /colcon_ws/build/packt_rclpy_demo/install.log --single-version-externally-managed

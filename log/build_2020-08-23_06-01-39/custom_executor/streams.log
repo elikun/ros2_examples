@@ -1,0 +1,31 @@
+[1.595s] Invoking command in '/colcon_ws/src/custom_executor': PYTHONPATH=/colcon_ws/install/custom_executor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /colcon_ws/build/custom_executor build --build-base /colcon_ws/build/custom_executor/build install --prefix /colcon_ws/install/custom_executor --record /colcon_ws/build/custom_executor/install.log --single-version-externally-managed
+[2.330s] running egg_info
+[2.335s] creating /colcon_ws/build/custom_executor/custom_executor.egg-info
+[3.540s] writing /colcon_ws/build/custom_executor/custom_executor.egg-info/PKG-INFO
+[3.549s] writing dependency_links to /colcon_ws/build/custom_executor/custom_executor.egg-info/dependency_links.txt
+[3.555s] writing entry points to /colcon_ws/build/custom_executor/custom_executor.egg-info/entry_points.txt
+[3.561s] writing requirements to /colcon_ws/build/custom_executor/custom_executor.egg-info/requires.txt
+[3.565s] writing top-level names to /colcon_ws/build/custom_executor/custom_executor.egg-info/top_level.txt
+[3.577s] writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+[3.786s] reading manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+[3.818s] writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'
+[3.823s] running build
+[3.825s] running build_py
+[3.830s] creating /colcon_ws/build/custom_executor/build
+[3.833s] creating /colcon_ws/build/custom_executor/build/lib
+[3.836s] creating /colcon_ws/build/custom_executor/build/lib/custom_executor
+[3.844s] copying custom_executor/__init__.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor
+[3.858s] copying custom_executor/custom_executor_example.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor
+[3.882s] running install
+[3.888s] running install_lib
+[3.901s] creating /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+[3.912s] copying /colcon_ws/build/custom_executor/build/lib/custom_executor/custom_executor_example.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+[3.931s] copying /colcon_ws/build/custom_executor/build/lib/custom_executor/__init__.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor
+[3.951s] byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/custom_executor_example.py to custom_executor_example.cpython-38.pyc
+[3.976s] byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/__init__.py to __init__.cpython-38.pyc
+[3.993s] running install_egg_info
+[4.006s] Copying /colcon_ws/build/custom_executor/custom_executor.egg-info to /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor-0.0.0-py3.8.egg-info
+[4.137s] running install_scripts
+[4.201s] Installing custom_executor_example script to /colcon_ws/install/custom_executor/lib/custom_executor
+[4.211s] writing list of installed files to '/colcon_ws/build/custom_executor/install.log'
+[4.253s] Invoked command in '/colcon_ws/src/custom_executor' returned '0': PYTHONPATH=/colcon_ws/install/custom_executor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /colcon_ws/build/custom_executor build --build-base /colcon_ws/build/custom_executor/build install --prefix /colcon_ws/install/custom_executor --record /colcon_ws/build/custom_executor/install.log --single-version-externally-managed

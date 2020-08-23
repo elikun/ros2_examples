@@ -1,11 +1,11 @@
 Starting >>> packt_rclpy_demo
-[0.692s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.693s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/custom_executor' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.696s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/composition' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.697s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
-[0.700s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/composition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
-[1.173s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
-[1.183s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.690s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.692s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/custom_executor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.693s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/composition' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.695s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.697s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/composition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.284s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.296s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
 running egg_info
 creating /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info
 writing /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/PKG-INFO
@@ -39,7 +39,7 @@ running install_scripts
 Installing listener script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
 Installing talker script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
 writing list of installed files to '/colcon_ws/build/packt_rclpy_demo/install.log'
-Finished <<< packt_rclpy_demo [2.18s]
+Finished <<< packt_rclpy_demo [2.45s]
 Starting >>> composition
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
@@ -117,7 +117,7 @@ Scanning dependencies of target manual_composition
 -- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig.cmake
 -- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig-version.cmake
 -- Installing: /colcon_ws/install/composition/share/composition/package.xml
-Finished <<< composition [40.9s]
+Finished <<< composition [43.0s]
 Starting >>> packt_rclcpp_demo
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
@@ -174,8 +174,8 @@ Scanning dependencies of target listener
 Scanning dependencies of target talker
 [ 75%] Building CXX object CMakeFiles/talker.dir/src/publisher.cpp.o
 [100%] Linking CXX executable talker
-[100%] Built target talker
 [Processing: packt_rclcpp_demo]
+[100%] Built target talker
 -- Install configuration: ""
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker
 -- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker" to ""
@@ -196,10 +196,10 @@ Scanning dependencies of target talker
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig.cmake
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig-version.cmake
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.xml
-Finished <<< packt_rclcpp_demo [33.0s]
+Finished <<< packt_rclcpp_demo [36.4s]
 Starting >>> custom_executor
-[77.403s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
-[77.416s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[84.053s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[84.066s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
 running egg_info
 creating /colcon_ws/build/custom_executor/custom_executor.egg-info
 writing /colcon_ws/build/custom_executor/custom_executor.egg-info/PKG-INFO
@@ -229,6 +229,6 @@ Copying /colcon_ws/build/custom_executor/custom_executor.egg-info to /colcon_ws/
 running install_scripts
 Installing custom_executor_example script to /colcon_ws/install/custom_executor/lib/custom_executor
 writing list of installed files to '/colcon_ws/build/custom_executor/install.log'
-Finished <<< custom_executor [2.12s]
+Finished <<< custom_executor [4.38s]
 
-Summary: 4 packages finished [1min 19s]
+Summary: 4 packages finished [1min 27s]

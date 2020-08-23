@@ -1,0 +1,81 @@
+[0.090s] Invoking command in '/colcon_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/composition -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/composition
+[0.389s] -- The C compiler identification is GNU 9.3.0
+[0.682s] -- The CXX compiler identification is GNU 9.3.0
+[0.753s] -- Check for working C compiler: /usr/bin/cc
+[1.458s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.468s] -- Detecting C compiler ABI info
+[2.676s] -- Detecting C compiler ABI info - done
+[2.767s] -- Detecting C compile features
+[2.769s] -- Detecting C compile features - done
+[2.842s] -- Check for working CXX compiler: /usr/bin/c++
+[3.691s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.700s] -- Detecting CXX compiler ABI info
+[4.318s] -- Detecting CXX compiler ABI info - done
+[4.366s] -- Detecting CXX compile features
+[4.369s] -- Detecting CXX compile features - done
+[4.426s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[5.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.813s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.125s] -- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.611s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.923s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.190s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.198s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.234s] -- Looking for pthread.h
+[7.968s] -- Looking for pthread.h - found
+[7.979s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.740s] -- Looking for pthread_create in pthreads
+[10.422s] -- Looking for pthread_create in pthreads - not found
+[10.428s] -- Looking for pthread_create in pthread
+[10.997s] -- Looking for pthread_create in pthread - found
+[11.008s] -- Found Threads: TRUE  
+[11.544s] -- Found rclcpp_components: 2.1.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[12.278s] -- Configuring done
+[12.806s] -- Generating done
+[12.893s] -- Build files have been written to: /colcon_ws/build/composition
+[12.900s] Invoked command in '/colcon_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/composition -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/composition
+[12.911s] Invoking command in '/colcon_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/composition -- -j1 -l1
+[13.708s] Scanning dependencies of target talker_component
+[13.786s] [ 16%] Building CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o
+[20.078s] [ 33%] Linking CXX shared library libtalker_component.so
+[22.094s] [ 33%] Built target talker_component
+[22.786s] Scanning dependencies of target listener_component
+[22.859s] [ 50%] Building CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o
+[32.617s] [ 66%] Linking CXX shared library liblistener_component.so
+[36.284s] [ 66%] Built target listener_component
+[36.924s] Scanning dependencies of target manual_composition
+[36.999s] [ 83%] Building CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o
+[40.716s] [100%] Linking CXX executable manual_composition
+[41.527s] [100%] Built target manual_composition
+[41.590s] Invoked command in '/colcon_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/composition -- -j1 -l1
+[41.854s] Invoking command in '/colcon_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/composition
+[41.885s] -- Install configuration: ""
+[41.897s] -- Installing: /colcon_ws/install/composition/lib/libtalker_component.so
+[41.975s] -- Set runtime path of "/colcon_ws/install/composition/lib/libtalker_component.so" to ""
+[41.984s] -- Installing: /colcon_ws/install/composition/lib/liblistener_component.so
+[42.115s] -- Set runtime path of "/colcon_ws/install/composition/lib/liblistener_component.so" to ""
+[42.132s] -- Installing: /colcon_ws/install/composition/lib/composition/manual_composition
+[42.180s] -- Set runtime path of "/colcon_ws/install/composition/lib/composition/manual_composition" to ""
+[42.185s] -- Installing: /colcon_ws/install/composition/share/composition/launch
+[42.201s] -- Installing: /colcon_ws/install/composition/share/composition/launch/demo.launch.py
+[42.260s] -- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
+[42.318s] -- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
+[42.372s] -- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.sh
+[42.409s] -- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.dsv
+[42.440s] -- Installing: /colcon_ws/install/composition/share/composition/environment/path.sh
+[42.470s] -- Installing: /colcon_ws/install/composition/share/composition/environment/path.dsv
+[42.506s] -- Installing: /colcon_ws/install/composition/share/composition/local_setup.bash
+[42.536s] -- Installing: /colcon_ws/install/composition/share/composition/local_setup.sh
+[42.570s] -- Installing: /colcon_ws/install/composition/share/composition/local_setup.zsh
+[42.610s] -- Installing: /colcon_ws/install/composition/share/composition/local_setup.dsv
+[42.644s] -- Installing: /colcon_ws/install/composition/share/composition/package.dsv
+[42.686s] -- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/packages/composition
+[42.738s] -- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/rclcpp_components/composition
+[42.785s] -- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig.cmake
+[42.817s] -- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig-version.cmake
+[42.850s] -- Installing: /colcon_ws/install/composition/share/composition/package.xml
+[42.881s] Invoked command in '/colcon_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/composition

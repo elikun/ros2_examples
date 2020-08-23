@@ -138,6 +138,8 @@ root@123456abcdef:/colcon_ws# rm -rf build install log colcon_build.log
 
 # Other useful links
 
+- https://github.com/ros2/demos
 - https://github.com/ros2/examples
 - https://index.ros.org/doc/ros2/Tutorials/
+- https://index.ros.org/doc/ros2/Tutorials/Composition/
 - https://index.ros.org/doc/ros2/Tutorials/Launch-system/
