@@ -9,6 +9,8 @@ class Publisher(Node):
     def __init__(self):
         # Assign name of this Node to 'talker'
         super().__init__('talker')
+
+        # Initialize data for publishing to 0
         self.i = 0
 
         # Configure QoS profile

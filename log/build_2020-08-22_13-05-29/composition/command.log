@@ -1,6 +1,0 @@
-Invoking command in '/colcon_ws/build/composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/composition -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/composition
-Invoked command in '/colcon_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/composition -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/composition
-Invoking command in '/colcon_ws/build/composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/composition -- -j1 -l1
-Invoked command in '/colcon_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/composition -- -j1 -l1
-Invoking command in '/colcon_ws/build/composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/composition
-Invoked command in '/colcon_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/composition

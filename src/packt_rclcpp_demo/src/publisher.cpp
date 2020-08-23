@@ -26,7 +26,7 @@ class Publisher : public rclcpp::Node
     private:
         void timer_callback() {
             // Fill the message data
-            auto message = std_msgs::msg::String();
+            std_msgs::msg::String message = std_msgs::msg::String();
             message.data = "Hello world! " + std::to_string(count++);
 
             // Log the sent message

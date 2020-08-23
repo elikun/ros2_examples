@@ -92,7 +92,7 @@ root@123456abcdef:/colcon_ws# ros2 run packt_rclpy_demo listener
 root@123456abcdef:/colcon_ws# ros2 run packt_rclpy_demo talker
 ```
 
-# Useful ROS 2 Commands
+# Other useful commands
 
 - List existing ROS 2 topics
 ```bash
@@ -107,5 +107,10 @@ root@123456abcdef:/colcon_ws# ros2 topic echo chatter
 - Initialize a C++ ROS 2 Package named packt_rclcpp_demo
 ```bash
 root@123456abcdef:/colcon_ws# ros2 pkg create packt_rclcpp_demo
+```
+
+- Clean up colcon build artifacts
+```bash
+root@123456abcdef:/colcon_ws# rm -rf build install log colcon_build.log
 ```
 
