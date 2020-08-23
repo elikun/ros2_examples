@@ -1,7 +1,7 @@
 # ros2_examples
 
 - Forked from https://github.com/eborghi10/ros2_examples
-- Examples using ROS 2 for the Packt video course "ROS 2 - New Features".
+- Examples using ROS 2 for the Packt video course "ROS 2 - New Features" by Emiliano Javier Borghi Orué.
 - Updated to support ROS 2 Foxy Fitzroy.
     - Major updates starting from ROS 2 Dashing Diademata:
         - https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/#changes-to-creating-publishers-and-subscriptions
@@ -124,6 +124,11 @@ root@123456abcdef:/colcon_ws# ros2 topic pub /estop std_msgs/String "data: Stop"
 root@123456abcdef:/colcon_ws# ros2 pkg create packt_rclcpp_demo
 ```
 
+- Execute launch file called composition_demo.launch.py file in composition
+```bash
+root@123456abcdef:/colcon_ws# ros2 launch composition demo.launch.py
+```
+
 - Clean up colcon build artifacts
 ```bash
 root@123456abcdef:/colcon_ws# rm -rf build install log colcon_build.log
@@ -133,5 +138,6 @@ root@123456abcdef:/colcon_ws# rm -rf build install log colcon_build.log
 
 # Other useful links
 
-- https://index.ros.org/doc/ros2/Tutorials/
 - https://github.com/ros2/examples
+- https://index.ros.org/doc/ros2/Tutorials/
+- https://index.ros.org/doc/ros2/Tutorials/Launch-system/

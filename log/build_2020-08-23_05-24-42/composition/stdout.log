@@ -55,6 +55,8 @@ Scanning dependencies of target manual_composition
 -- Set runtime path of "/colcon_ws/install/composition/lib/liblistener_component.so" to ""
 -- Installing: /colcon_ws/install/composition/lib/composition/manual_composition
 -- Set runtime path of "/colcon_ws/install/composition/lib/composition/manual_composition" to ""
+-- Installing: /colcon_ws/install/composition/share/composition/launch
+-- Installing: /colcon_ws/install/composition/share/composition/launch/demo.launch.py
 -- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
 -- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
 -- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.sh

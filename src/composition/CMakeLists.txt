@@ -55,15 +55,16 @@ target_link_libraries(manual_composition
 ament_target_dependencies(manual_composition
   "rclcpp")
 
-install(TARGETS
-  talker_component
-  listener_component
-  ARCHIVE DESTINATION lib
-  LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin)
+install(TARGETS talker_component listener_component
+        ARCHIVE DESTINATION lib
+        LIBRARY DESTINATION lib
+        RUNTIME DESTINATION bin)
 
-install(TARGETS
-  manual_composition
-  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS manual_composition
+        DESTINATION lib/${PROJECT_NAME})
+
+# Install launch files.
+install(DIRECTORY launch
+        DESTINATION share/${PROJECT_NAME})
 
 ament_package()

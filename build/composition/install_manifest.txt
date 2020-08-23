@@ -1,6 +1,7 @@
 /colcon_ws/install/composition/lib/libtalker_component.so
 /colcon_ws/install/composition/lib/liblistener_component.so
 /colcon_ws/install/composition/lib/composition/manual_composition
+/colcon_ws/install/composition/share/composition/launch/demo.launch.py
 /colcon_ws/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
 /colcon_ws/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
 /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.sh

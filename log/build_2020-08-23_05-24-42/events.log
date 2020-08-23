@@ -1,0 +1,1001 @@
+[0.000000] (-) TimerEvent: {}
+[0.001316] (composition) JobQueued: {'identifier': 'composition', 'dependencies': OrderedDict()}
+[0.001966] (packt_rclcpp_demo) JobQueued: {'identifier': 'packt_rclcpp_demo', 'dependencies': OrderedDict()}
+[0.002647] (packt_rclpy_demo) JobQueued: {'identifier': 'packt_rclpy_demo', 'dependencies': OrderedDict()}
+[0.002901] (custom_executor) JobQueued: {'identifier': 'custom_executor', 'dependencies': OrderedDict([('packt_rclpy_demo', '/colcon_ws/install/packt_rclpy_demo')])}
+[0.004079] (packt_rclpy_demo) JobStarted: {'identifier': 'packt_rclpy_demo'}
+[0.094230] (-) TimerEvent: {}
+[0.194841] (-) TimerEvent: {}
+[0.295638] (-) TimerEvent: {}
+[0.396221] (-) TimerEvent: {}
+[0.497209] (-) TimerEvent: {}
+[0.598202] (-) TimerEvent: {}
+[0.603147] (packt_rclpy_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/colcon_ws/build/packt_rclpy_demo', 'build', '--build-base', '/colcon_ws/build/packt_rclpy_demo/build', 'install', '--prefix', '/colcon_ws/install/packt_rclpy_demo', '--record', '/colcon_ws/build/packt_rclpy_demo/install.log', '--single-version-externally-managed'], 'cwd': '/colcon_ws/src/packt_rclpy_demo', 'env': {'HOSTNAME': '60fb2297e4d1', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/colcon_ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/colcon_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy', 'PWD': '/colcon_ws/build/packt_rclpy_demo', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition'}, 'shell': False}
+[0.698290] (-) TimerEvent: {}
+[0.798541] (-) TimerEvent: {}
+[0.898835] (-) TimerEvent: {}
+[0.999889] (-) TimerEvent: {}
+[1.100503] (-) TimerEvent: {}
+[1.121596] (packt_rclpy_demo) StdoutLine: {'line': b'running egg_info\n'}
+[1.126715] (packt_rclpy_demo) StdoutLine: {'line': b'creating /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info\n'}
+[1.201273] (-) TimerEvent: {}
+[1.367334] (packt_rclpy_demo) StdoutLine: {'line': b'writing /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/PKG-INFO\n'}
+[1.368230] (-) TimerEvent: {}
+[1.376083] (packt_rclpy_demo) StdoutLine: {'line': b'writing dependency_links to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/dependency_links.txt\n'}
+[1.382398] (packt_rclpy_demo) StdoutLine: {'line': b'writing entry points to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/entry_points.txt\n'}
+[1.388305] (packt_rclpy_demo) StdoutLine: {'line': b'writing requirements to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/requires.txt\n'}
+[1.393116] (packt_rclpy_demo) StdoutLine: {'line': b'writing top-level names to /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/top_level.txt\n'}
+[1.403149] (packt_rclpy_demo) StdoutLine: {'line': b"writing manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'\n"}
+[1.468535] (-) TimerEvent: {}
+[1.508011] (packt_rclpy_demo) StdoutLine: {'line': b"reading manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'\n"}
+[1.539278] (packt_rclpy_demo) StdoutLine: {'line': b"writing manifest file '/colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/SOURCES.txt'\n"}
+[1.544481] (packt_rclpy_demo) StdoutLine: {'line': b'running build\n'}
+[1.545497] (packt_rclpy_demo) StdoutLine: {'line': b'running build_py\n'}
+[1.551085] (packt_rclpy_demo) StdoutLine: {'line': b'creating /colcon_ws/build/packt_rclpy_demo/build\n'}
+[1.555301] (packt_rclpy_demo) StdoutLine: {'line': b'creating /colcon_ws/build/packt_rclpy_demo/build/lib\n'}
+[1.558928] (packt_rclpy_demo) StdoutLine: {'line': b'creating /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo\n'}
+[1.567006] (packt_rclpy_demo) StdoutLine: {'line': b'copying packt_rclpy_demo/__init__.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo\n'}
+[1.568686] (-) TimerEvent: {}
+[1.582188] (packt_rclpy_demo) StdoutLine: {'line': b'copying packt_rclpy_demo/publisher.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo\n'}
+[1.594854] (packt_rclpy_demo) StdoutLine: {'line': b'copying packt_rclpy_demo/subscriber.py -> /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo\n'}
+[1.626347] (packt_rclpy_demo) StdoutLine: {'line': b'running install\n'}
+[1.630682] (packt_rclpy_demo) StdoutLine: {'line': b'running install_lib\n'}
+[1.644409] (packt_rclpy_demo) StdoutLine: {'line': b'creating /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo\n'}
+[1.654061] (packt_rclpy_demo) StdoutLine: {'line': b'copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/publisher.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo\n'}
+[1.668843] (-) TimerEvent: {}
+[1.675253] (packt_rclpy_demo) StdoutLine: {'line': b'copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/subscriber.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo\n'}
+[1.694476] (packt_rclpy_demo) StdoutLine: {'line': b'copying /colcon_ws/build/packt_rclpy_demo/build/lib/packt_rclpy_demo/__init__.py -> /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo\n'}
+[1.715455] (packt_rclpy_demo) StdoutLine: {'line': b'byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/publisher.py to publisher.cpython-38.pyc\n'}
+[1.742893] (packt_rclpy_demo) StdoutLine: {'line': b'byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/subscriber.py to subscriber.cpython-38.pyc\n'}
+[1.764627] (packt_rclpy_demo) StdoutLine: {'line': b'byte-compiling /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo/__init__.py to __init__.cpython-38.pyc\n'}
+[1.768975] (-) TimerEvent: {}
+[1.783209] (packt_rclpy_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.795577] (packt_rclpy_demo) StdoutLine: {'line': b'Copying /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info to /colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages/packt_rclpy_demo-0.0.0-py3.8.egg-info\n'}
+[1.869125] (-) TimerEvent: {}
+[1.931917] (packt_rclpy_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.969306] (-) TimerEvent: {}
+[1.979680] (packt_rclpy_demo) StdoutLine: {'line': b'Installing listener script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo\n'}
+[1.988578] (packt_rclpy_demo) StdoutLine: {'line': b'Installing talker script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo\n'}
+[2.002525] (packt_rclpy_demo) StdoutLine: {'line': b"writing list of installed files to '/colcon_ws/build/packt_rclpy_demo/install.log'\n"}
+[2.043229] (packt_rclpy_demo) CommandEnded: {'returncode': 0}
+[2.069391] (-) TimerEvent: {}
+[2.169625] (-) TimerEvent: {}
+[2.181637] (packt_rclpy_demo) JobEnded: {'identifier': 'packt_rclpy_demo', 'rc': 0}
+[2.192928] (composition) JobStarted: {'identifier': 'composition'}
+[2.233649] (composition) JobProgress: {'identifier': 'composition', 'progress': 'cmake'}
+[2.238819] (composition) Command: {'cmd': ['/usr/bin/cmake', '/colcon_ws/src/composition', '-DCMAKE_INSTALL_PREFIX=/colcon_ws/install/composition'], 'cwd': '/colcon_ws/build/composition', 'env': OrderedDict([('HOSTNAME', '60fb2297e4d1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy'), ('PWD', '/colcon_ws/build/composition'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy')]), 'shell': False}
+[2.269780] (-) TimerEvent: {}
+[2.370114] (-) TimerEvent: {}
+[2.470731] (-) TimerEvent: {}
+[2.530535] (composition) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.570914] (-) TimerEvent: {}
+[2.671695] (-) TimerEvent: {}
+[2.772036] (-) TimerEvent: {}
+[2.821521] (composition) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.873004] (-) TimerEvent: {}
+[2.890181] (composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.973157] (-) TimerEvent: {}
+[3.073480] (-) TimerEvent: {}
+[3.173856] (-) TimerEvent: {}
+[3.274637] (-) TimerEvent: {}
+[3.374972] (-) TimerEvent: {}
+[3.445672] (composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.453044] (composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.475112] (-) TimerEvent: {}
+[3.575414] (-) TimerEvent: {}
+[3.675642] (-) TimerEvent: {}
+[3.777569] (-) TimerEvent: {}
+[4.940133] (-) TimerEvent: {}
+[5.040404] (-) TimerEvent: {}
+[5.140692] (-) TimerEvent: {}
+[5.185662] (composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.232511] (composition) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.234286] (composition) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.240792] (-) TimerEvent: {}
+[5.279154] (composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.340917] (-) TimerEvent: {}
+[5.441826] (-) TimerEvent: {}
+[5.542136] (-) TimerEvent: {}
+[5.642580] (-) TimerEvent: {}
+[5.743264] (-) TimerEvent: {}
+[5.843713] (-) TimerEvent: {}
+[5.868942] (composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.878892] (composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.943841] (-) TimerEvent: {}
+[6.044170] (-) TimerEvent: {}
+[6.144690] (-) TimerEvent: {}
+[6.245085] (-) TimerEvent: {}
+[6.345532] (-) TimerEvent: {}
+[6.445878] (-) TimerEvent: {}
+[6.446559] (composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.493258] (composition) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.495323] (composition) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.414439] (-) TimerEvent: {}
+[7.474956] (composition) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.514550] (-) TimerEvent: {}
+[7.581523] (composition) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") \n'}
+[7.584465] (composition) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.614815] (-) TimerEvent: {}
+[7.715582] (-) TimerEvent: {}
+[7.815973] (-) TimerEvent: {}
+[7.917130] (-) TimerEvent: {}
+[8.017709] (-) TimerEvent: {}
+[8.118037] (-) TimerEvent: {}
+[8.218611] (-) TimerEvent: {}
+[8.301869] (composition) StdoutLine: {'line': b'-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[8.318734] (-) TimerEvent: {}
+[8.419018] (-) TimerEvent: {}
+[8.519688] (-) TimerEvent: {}
+[8.523893] (composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.592380] (composition) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.620170] (-) TimerEvent: {}
+[8.720768] (-) TimerEvent: {}
+[8.821320] (-) TimerEvent: {}
+[8.922128] (-) TimerEvent: {}
+[8.987594] (composition) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.022831] (-) TimerEvent: {}
+[9.071184] (composition) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.123359] (-) TimerEvent: {}
+[9.224075] (-) TimerEvent: {}
+[9.324475] (-) TimerEvent: {}
+[9.398906] (composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.425208] (-) TimerEvent: {}
+[9.526807] (-) TimerEvent: {}
+[9.627617] (-) TimerEvent: {}
+[9.662393] (composition) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.670933] (composition) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.706166] (composition) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.727767] (-) TimerEvent: {}
+[9.828237] (-) TimerEvent: {}
+[10.403556] (-) TimerEvent: {}
+[10.503891] (-) TimerEvent: {}
+[10.604250] (-) TimerEvent: {}
+[10.704857] (-) TimerEvent: {}
+[10.805161] (-) TimerEvent: {}
+[10.820653] (composition) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.830698] (composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.905341] (-) TimerEvent: {}
+[11.005629] (-) TimerEvent: {}
+[11.105951] (-) TimerEvent: {}
+[11.206255] (-) TimerEvent: {}
+[11.306604] (-) TimerEvent: {}
+[11.390958] (composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[11.402680] (composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[11.406721] (-) TimerEvent: {}
+[11.507201] (-) TimerEvent: {}
+[11.607528] (-) TimerEvent: {}
+[11.708028] (-) TimerEvent: {}
+[11.808659] (-) TimerEvent: {}
+[11.908965] (-) TimerEvent: {}
+[11.924033] (composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[11.929264] (composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[12.009133] (-) TimerEvent: {}
+[12.109412] (-) TimerEvent: {}
+[12.209701] (-) TimerEvent: {}
+[12.309926] (-) TimerEvent: {}
+[12.410299] (-) TimerEvent: {}
+[12.469632] (composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[12.477085] (composition) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.510749] (-) TimerEvent: {}
+[12.611629] (-) TimerEvent: {}
+[12.712333] (-) TimerEvent: {}
+[12.813358] (-) TimerEvent: {}
+[12.914732] (-) TimerEvent: {}
+[12.994256] (composition) StdoutLine: {'line': b'-- Found rclcpp_components: 2.1.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[13.014818] (-) TimerEvent: {}
+[13.119062] (-) TimerEvent: {}
+[13.219511] (-) TimerEvent: {}
+[13.321762] (-) TimerEvent: {}
+[13.423594] (-) TimerEvent: {}
+[13.523988] (-) TimerEvent: {}
+[13.624766] (-) TimerEvent: {}
+[13.725137] (-) TimerEvent: {}
+[13.827382] (-) TimerEvent: {}
+[13.928598] (-) TimerEvent: {}
+[14.029034] (-) TimerEvent: {}
+[14.129342] (-) TimerEvent: {}
+[14.230758] (-) TimerEvent: {}
+[14.333831] (-) TimerEvent: {}
+[14.435154] (-) TimerEvent: {}
+[14.538892] (-) TimerEvent: {}
+[14.643630] (-) TimerEvent: {}
+[14.744276] (-) TimerEvent: {}
+[14.845234] (-) TimerEvent: {}
+[14.946411] (-) TimerEvent: {}
+[15.047061] (-) TimerEvent: {}
+[15.147403] (-) TimerEvent: {}
+[15.247746] (-) TimerEvent: {}
+[15.322508] (composition) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.347856] (-) TimerEvent: {}
+[15.448192] (-) TimerEvent: {}
+[15.548579] (-) TimerEvent: {}
+[15.649083] (-) TimerEvent: {}
+[15.749420] (-) TimerEvent: {}
+[15.788264] (composition) StdoutLine: {'line': b'-- Generating done\n'}
+[15.849625] (-) TimerEvent: {}
+[15.875102] (composition) StdoutLine: {'line': b'-- Build files have been written to: /colcon_ws/build/composition\n'}
+[15.886477] (composition) CommandEnded: {'returncode': 0}
+[15.889846] (composition) JobProgress: {'identifier': 'composition', 'progress': 'build'}
+[15.893281] (composition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/colcon_ws/build/composition', '--', '-j1', '-l1'], 'cwd': '/colcon_ws/build/composition', 'env': OrderedDict([('HOSTNAME', '60fb2297e4d1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy'), ('PWD', '/colcon_ws/build/composition'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy')]), 'shell': False}
+[15.950149] (-) TimerEvent: {}
+[16.051296] (-) TimerEvent: {}
+[16.151665] (-) TimerEvent: {}
+[16.251940] (-) TimerEvent: {}
+[16.352225] (-) TimerEvent: {}
+[16.452513] (-) TimerEvent: {}
+[16.552828] (-) TimerEvent: {}
+[16.653123] (-) TimerEvent: {}
+[16.676081] (composition) StdoutLine: {'line': b'Scanning dependencies of target talker_component\n'}
+[16.747792] (composition) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o\n'}
+[16.753193] (-) TimerEvent: {}
+[16.853655] (-) TimerEvent: {}
+[16.953999] (-) TimerEvent: {}
+[17.054977] (-) TimerEvent: {}
+[17.155336] (-) TimerEvent: {}
+[17.255649] (-) TimerEvent: {}
+[17.356413] (-) TimerEvent: {}
+[17.457604] (-) TimerEvent: {}
+[17.558266] (-) TimerEvent: {}
+[17.659092] (-) TimerEvent: {}
+[17.760450] (-) TimerEvent: {}
+[17.861412] (-) TimerEvent: {}
+[17.962421] (-) TimerEvent: {}
+[18.064167] (-) TimerEvent: {}
+[18.165426] (-) TimerEvent: {}
+[18.266206] (-) TimerEvent: {}
+[18.367723] (-) TimerEvent: {}
+[18.469050] (-) TimerEvent: {}
+[18.570536] (-) TimerEvent: {}
+[18.672190] (-) TimerEvent: {}
+[18.773247] (-) TimerEvent: {}
+[18.874277] (-) TimerEvent: {}
+[18.975767] (-) TimerEvent: {}
+[19.076810] (-) TimerEvent: {}
+[19.177794] (-) TimerEvent: {}
+[19.278842] (-) TimerEvent: {}
+[19.379831] (-) TimerEvent: {}
+[19.480875] (-) TimerEvent: {}
+[19.581610] (-) TimerEvent: {}
+[19.682891] (-) TimerEvent: {}
+[19.783873] (-) TimerEvent: {}
+[19.884943] (-) TimerEvent: {}
+[19.985657] (-) TimerEvent: {}
+[20.086453] (-) TimerEvent: {}
+[20.187451] (-) TimerEvent: {}
+[20.288201] (-) TimerEvent: {}
+[20.388556] (-) TimerEvent: {}
+[20.489376] (-) TimerEvent: {}
+[20.590583] (-) TimerEvent: {}
+[20.691286] (-) TimerEvent: {}
+[20.792075] (-) TimerEvent: {}
+[20.893377] (-) TimerEvent: {}
+[20.994644] (-) TimerEvent: {}
+[21.095408] (-) TimerEvent: {}
+[21.196691] (-) TimerEvent: {}
+[21.297694] (-) TimerEvent: {}
+[21.399200] (-) TimerEvent: {}
+[21.500233] (-) TimerEvent: {}
+[21.601226] (-) TimerEvent: {}
+[21.702706] (-) TimerEvent: {}
+[21.803785] (-) TimerEvent: {}
+[21.904764] (-) TimerEvent: {}
+[22.006171] (-) TimerEvent: {}
+[22.107742] (-) TimerEvent: {}
+[22.208628] (-) TimerEvent: {}
+[22.309534] (-) TimerEvent: {}
+[22.409936] (-) TimerEvent: {}
+[22.510220] (-) TimerEvent: {}
+[22.566978] (composition) StdoutLine: {'line': b'[ 33%] Linking CXX shared library libtalker_component.so\n'}
+[22.610393] (-) TimerEvent: {}
+[22.710695] (-) TimerEvent: {}
+[22.811025] (-) TimerEvent: {}
+[22.911353] (-) TimerEvent: {}
+[23.011631] (-) TimerEvent: {}
+[23.111918] (-) TimerEvent: {}
+[23.212187] (-) TimerEvent: {}
+[23.312473] (-) TimerEvent: {}
+[23.412768] (-) TimerEvent: {}
+[23.513179] (-) TimerEvent: {}
+[23.614342] (-) TimerEvent: {}
+[23.714842] (-) TimerEvent: {}
+[23.815134] (-) TimerEvent: {}
+[23.915447] (-) TimerEvent: {}
+[24.015731] (-) TimerEvent: {}
+[24.116026] (-) TimerEvent: {}
+[24.212254] (composition) StdoutLine: {'line': b'[ 33%] Built target talker_component\n'}
+[24.216153] (-) TimerEvent: {}
+[24.316442] (-) TimerEvent: {}
+[24.416799] (-) TimerEvent: {}
+[24.517143] (-) TimerEvent: {}
+[24.617460] (-) TimerEvent: {}
+[24.717774] (-) TimerEvent: {}
+[24.818080] (-) TimerEvent: {}
+[24.843860] (composition) StdoutLine: {'line': b'Scanning dependencies of target listener_component\n'}
+[24.918158] (-) TimerEvent: {}
+[24.924002] (composition) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o\n'}
+[25.018632] (-) TimerEvent: {}
+[25.118920] (-) TimerEvent: {}
+[25.219763] (-) TimerEvent: {}
+[25.320331] (-) TimerEvent: {}
+[25.420850] (-) TimerEvent: {}
+[25.521821] (-) TimerEvent: {}
+[25.622981] (-) TimerEvent: {}
+[25.723613] (-) TimerEvent: {}
+[25.824411] (-) TimerEvent: {}
+[25.925455] (-) TimerEvent: {}
+[26.026426] (-) TimerEvent: {}
+[26.127484] (-) TimerEvent: {}
+[26.228122] (-) TimerEvent: {}
+[26.329009] (-) TimerEvent: {}
+[26.430254] (-) TimerEvent: {}
+[26.531064] (-) TimerEvent: {}
+[26.632289] (-) TimerEvent: {}
+[26.732620] (-) TimerEvent: {}
+[26.833406] (-) TimerEvent: {}
+[26.934641] (-) TimerEvent: {}
+[27.035606] (-) TimerEvent: {}
+[27.136677] (-) TimerEvent: {}
+[27.237355] (-) TimerEvent: {}
+[27.338042] (-) TimerEvent: {}
+[27.439220] (-) TimerEvent: {}
+[27.540235] (-) TimerEvent: {}
+[27.641285] (-) TimerEvent: {}
+[27.742262] (-) TimerEvent: {}
+[27.843300] (-) TimerEvent: {}
+[27.944268] (-) TimerEvent: {}
+[28.045293] (-) TimerEvent: {}
+[28.146013] (-) TimerEvent: {}
+[28.246852] (-) TimerEvent: {}
+[28.347905] (-) TimerEvent: {}
+[28.448589] (-) TimerEvent: {}
+[28.549432] (-) TimerEvent: {}
+[28.650467] (-) TimerEvent: {}
+[28.751479] (-) TimerEvent: {}
+[28.852532] (-) TimerEvent: {}
+[28.953232] (-) TimerEvent: {}
+[29.053558] (-) TimerEvent: {}
+[29.154277] (-) TimerEvent: {}
+[29.255077] (-) TimerEvent: {}
+[29.356117] (-) TimerEvent: {}
+[29.457089] (-) TimerEvent: {}
+[29.558582] (-) TimerEvent: {}
+[29.659672] (-) TimerEvent: {}
+[29.760437] (-) TimerEvent: {}
+[29.862146] (-) TimerEvent: {}
+[29.963624] (-) TimerEvent: {}
+[30.064655] (-) TimerEvent: {}
+[30.165641] (-) TimerEvent: {}
+[30.266775] (-) TimerEvent: {}
+[30.367741] (-) TimerEvent: {}
+[30.469111] (-) TimerEvent: {}
+[30.570609] (-) TimerEvent: {}
+[30.671799] (-) TimerEvent: {}
+[30.772478] (-) TimerEvent: {}
+[30.872845] (-) TimerEvent: {}
+[30.973768] (-) TimerEvent: {}
+[31.074879] (-) TimerEvent: {}
+[31.175598] (-) TimerEvent: {}
+[31.276363] (-) TimerEvent: {}
+[31.377409] (-) TimerEvent: {}
+[31.478415] (-) TimerEvent: {}
+[31.579473] (-) TimerEvent: {}
+[31.680295] (-) TimerEvent: {}
+[31.781946] (-) TimerEvent: {}
+[31.883021] (-) TimerEvent: {}
+[31.984006] (-) TimerEvent: {}
+[32.085249] (-) TimerEvent: {}
+[32.185602] (-) TimerEvent: {}
+[32.286383] (-) TimerEvent: {}
+[32.387637] (-) TimerEvent: {}
+[32.488605] (-) TimerEvent: {}
+[32.589638] (-) TimerEvent: {}
+[32.690642] (-) TimerEvent: {}
+[32.791665] (-) TimerEvent: {}
+[32.892658] (-) TimerEvent: {}
+[32.994012] (-) TimerEvent: {}
+[33.095629] (-) TimerEvent: {}
+[33.196457] (-) TimerEvent: {}
+[33.296810] (-) TimerEvent: {}
+[33.397156] (-) TimerEvent: {}
+[33.497496] (-) TimerEvent: {}
+[33.515133] (composition) StdoutLine: {'line': b'[ 66%] Linking CXX shared library liblistener_component.so\n'}
+[33.597634] (-) TimerEvent: {}
+[33.697933] (-) TimerEvent: {}
+[33.798336] (-) TimerEvent: {}
+[33.898702] (-) TimerEvent: {}
+[33.999002] (-) TimerEvent: {}
+[34.099273] (-) TimerEvent: {}
+[34.199566] (-) TimerEvent: {}
+[34.299865] (-) TimerEvent: {}
+[34.400169] (-) TimerEvent: {}
+[34.500398] (-) TimerEvent: {}
+[34.600675] (-) TimerEvent: {}
+[34.700951] (-) TimerEvent: {}
+[34.801279] (-) TimerEvent: {}
+[34.901638] (-) TimerEvent: {}
+[35.001971] (-) TimerEvent: {}
+[35.102275] (-) TimerEvent: {}
+[35.202625] (-) TimerEvent: {}
+[35.302996] (-) TimerEvent: {}
+[35.403494] (-) TimerEvent: {}
+[35.504106] (-) TimerEvent: {}
+[35.604439] (-) TimerEvent: {}
+[35.704736] (-) TimerEvent: {}
+[35.805028] (-) TimerEvent: {}
+[35.905320] (-) TimerEvent: {}
+[36.005618] (-) TimerEvent: {}
+[36.106183] (-) TimerEvent: {}
+[36.206883] (-) TimerEvent: {}
+[36.307164] (-) TimerEvent: {}
+[36.407502] (-) TimerEvent: {}
+[36.507869] (-) TimerEvent: {}
+[36.608285] (-) TimerEvent: {}
+[36.708624] (-) TimerEvent: {}
+[36.803032] (composition) StdoutLine: {'line': b'[ 66%] Built target listener_component\n'}
+[36.808816] (-) TimerEvent: {}
+[36.909198] (-) TimerEvent: {}
+[37.009600] (-) TimerEvent: {}
+[37.109952] (-) TimerEvent: {}
+[37.210285] (-) TimerEvent: {}
+[37.310645] (-) TimerEvent: {}
+[37.410913] (-) TimerEvent: {}
+[37.479138] (composition) StdoutLine: {'line': b'Scanning dependencies of target manual_composition\n'}
+[37.511101] (-) TimerEvent: {}
+[37.554531] (composition) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o\n'}
+[37.611311] (-) TimerEvent: {}
+[37.711572] (-) TimerEvent: {}
+[37.812228] (-) TimerEvent: {}
+[37.912836] (-) TimerEvent: {}
+[38.013305] (-) TimerEvent: {}
+[38.113908] (-) TimerEvent: {}
+[38.214809] (-) TimerEvent: {}
+[38.315871] (-) TimerEvent: {}
+[38.416586] (-) TimerEvent: {}
+[38.517413] (-) TimerEvent: {}
+[38.618511] (-) TimerEvent: {}
+[38.719435] (-) TimerEvent: {}
+[38.820770] (-) TimerEvent: {}
+[38.922125] (-) TimerEvent: {}
+[39.022806] (-) TimerEvent: {}
+[39.124164] (-) TimerEvent: {}
+[39.224974] (-) TimerEvent: {}
+[39.326188] (-) TimerEvent: {}
+[39.427007] (-) TimerEvent: {}
+[39.528395] (-) TimerEvent: {}
+[39.629592] (-) TimerEvent: {}
+[39.730587] (-) TimerEvent: {}
+[39.831584] (-) TimerEvent: {}
+[39.932310] (-) TimerEvent: {}
+[40.033141] (-) TimerEvent: {}
+[40.134642] (-) TimerEvent: {}
+[40.235683] (-) TimerEvent: {}
+[40.336324] (-) TimerEvent: {}
+[40.437187] (-) TimerEvent: {}
+[40.538236] (-) TimerEvent: {}
+[40.639063] (-) TimerEvent: {}
+[40.740256] (-) TimerEvent: {}
+[40.840850] (-) TimerEvent: {}
+[40.941464] (-) TimerEvent: {}
+[41.006498] (composition) StdoutLine: {'line': b'[100%] Linking CXX executable manual_composition\n'}
+[41.041594] (-) TimerEvent: {}
+[41.141924] (-) TimerEvent: {}
+[41.242427] (-) TimerEvent: {}
+[41.343600] (-) TimerEvent: {}
+[41.444093] (-) TimerEvent: {}
+[41.544517] (-) TimerEvent: {}
+[41.604747] (composition) StdoutLine: {'line': b'[100%] Built target manual_composition\n'}
+[41.644672] (-) TimerEvent: {}
+[41.652783] (composition) CommandEnded: {'returncode': 0}
+[41.745108] (-) TimerEvent: {}
+[41.839898] (composition) JobProgress: {'identifier': 'composition', 'progress': 'install'}
+[41.845247] (-) TimerEvent: {}
+[41.870095] (composition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/colcon_ws/build/composition'], 'cwd': '/colcon_ws/build/composition', 'env': OrderedDict([('HOSTNAME', '60fb2297e4d1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy'), ('PWD', '/colcon_ws/build/composition'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy')]), 'shell': False}
+[41.902316] (composition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.942739] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/lib/libtalker_component.so\n'}
+[41.945369] (-) TimerEvent: {}
+[42.021825] (composition) StdoutLine: {'line': b'-- Set runtime path of "/colcon_ws/install/composition/lib/libtalker_component.so" to ""\n'}
+[42.030891] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/lib/liblistener_component.so\n'}
+[42.045498] (-) TimerEvent: {}
+[42.145809] (-) TimerEvent: {}
+[42.149405] (composition) StdoutLine: {'line': b'-- Set runtime path of "/colcon_ws/install/composition/lib/liblistener_component.so" to ""\n'}
+[42.165238] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/lib/composition/manual_composition\n'}
+[42.214040] (composition) StdoutLine: {'line': b'-- Set runtime path of "/colcon_ws/install/composition/lib/composition/manual_composition" to ""\n'}
+[42.221135] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/launch\n'}
+[42.237557] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/launch/demo.launch.py\n'}
+[42.245907] (-) TimerEvent: {}
+[42.284845] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/package_run_dependencies/composition\n'}
+[42.335822] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/parent_prefix_path/composition\n'}
+[42.346052] (-) TimerEvent: {}
+[42.380580] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.sh\n'}
+[42.412688] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/environment/ament_prefix_path.dsv\n'}
+[42.446162] (-) TimerEvent: {}
+[42.446850] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/environment/path.sh\n'}
+[42.536319] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/environment/path.dsv\n'}
+[42.546335] (-) TimerEvent: {}
+[42.571823] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/local_setup.bash\n'}
+[42.604518] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/local_setup.sh\n'}
+[42.638442] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/local_setup.zsh\n'}
+[42.646461] (-) TimerEvent: {}
+[42.670547] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/local_setup.dsv\n'}
+[42.703570] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/package.dsv\n'}
+[42.746601] (-) TimerEvent: {}
+[42.748910] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/packages/composition\n'}
+[42.798425] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/ament_index/resource_index/rclcpp_components/composition\n'}
+[42.846835] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig.cmake\n'}
+[42.847766] (-) TimerEvent: {}
+[42.885855] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig-version.cmake\n'}
+[42.918782] (composition) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/composition/share/composition/package.xml\n'}
+[42.948526] (-) TimerEvent: {}
+[42.949581] (composition) CommandEnded: {'returncode': 0}
+[43.048674] (-) TimerEvent: {}
+[43.099838] (composition) JobEnded: {'identifier': 'composition', 'rc': 0}
+[43.111514] (packt_rclcpp_demo) JobStarted: {'identifier': 'packt_rclcpp_demo'}
+[43.148862] (-) TimerEvent: {}
+[43.162218] (packt_rclcpp_demo) JobProgress: {'identifier': 'packt_rclcpp_demo', 'progress': 'cmake'}
+[43.166885] (packt_rclcpp_demo) Command: {'cmd': ['/usr/bin/cmake', '/colcon_ws/src/packt_rclcpp_demo', '-DCMAKE_INSTALL_PREFIX=/colcon_ws/install/packt_rclcpp_demo'], 'cwd': '/colcon_ws/build/packt_rclcpp_demo', 'env': OrderedDict([('HOSTNAME', '60fb2297e4d1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy'), ('PWD', '/colcon_ws/build/packt_rclcpp_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy')]), 'shell': False}
+[43.248987] (-) TimerEvent: {}
+[43.349623] (-) TimerEvent: {}
+[43.450594] (-) TimerEvent: {}
+[43.533032] (packt_rclcpp_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[43.550720] (-) TimerEvent: {}
+[43.651197] (-) TimerEvent: {}
+[43.752669] (-) TimerEvent: {}
+[43.835448] (packt_rclcpp_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[43.852843] (-) TimerEvent: {}
+[43.907639] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[43.953313] (-) TimerEvent: {}
+[44.053959] (-) TimerEvent: {}
+[44.154283] (-) TimerEvent: {}
+[44.255396] (-) TimerEvent: {}
+[44.355843] (-) TimerEvent: {}
+[44.456229] (-) TimerEvent: {}
+[44.556586] (-) TimerEvent: {}
+[44.599356] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[44.606528] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[44.656765] (-) TimerEvent: {}
+[44.805992] (-) TimerEvent: {}
+[44.906426] (-) TimerEvent: {}
+[45.006763] (-) TimerEvent: {}
+[45.107042] (-) TimerEvent: {}
+[45.207335] (-) TimerEvent: {}
+[45.307720] (-) TimerEvent: {}
+[45.353517] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[45.399460] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[45.401178] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[45.408544] (-) TimerEvent: {}
+[45.443122] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[45.508680] (-) TimerEvent: {}
+[45.609033] (-) TimerEvent: {}
+[45.709255] (-) TimerEvent: {}
+[45.809564] (-) TimerEvent: {}
+[45.909848] (-) TimerEvent: {}
+[46.010182] (-) TimerEvent: {}
+[46.110497] (-) TimerEvent: {}
+[46.172982] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[46.180570] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[46.210647] (-) TimerEvent: {}
+[46.310974] (-) TimerEvent: {}
+[46.411605] (-) TimerEvent: {}
+[46.511885] (-) TimerEvent: {}
+[46.612232] (-) TimerEvent: {}
+[46.712569] (-) TimerEvent: {}
+[46.812873] (-) TimerEvent: {}
+[46.883617] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[46.913800] (-) TimerEvent: {}
+[46.932196] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[46.934250] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[47.009900] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[47.013883] (-) TimerEvent: {}
+[47.114918] (-) TimerEvent: {}
+[47.156727] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") \n'}
+[47.159380] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[47.215344] (-) TimerEvent: {}
+[47.315663] (-) TimerEvent: {}
+[47.415964] (-) TimerEvent: {}
+[47.517290] (-) TimerEvent: {}
+[47.618329] (-) TimerEvent: {}
+[47.718682] (-) TimerEvent: {}
+[47.818994] (-) TimerEvent: {}
+[47.919300] (-) TimerEvent: {}
+[48.019676] (-) TimerEvent: {}
+[48.053948] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[48.119785] (-) TimerEvent: {}
+[48.220161] (-) TimerEvent: {}
+[48.320391] (-) TimerEvent: {}
+[48.392025] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[48.420562] (-) TimerEvent: {}
+[48.504959] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[48.520675] (-) TimerEvent: {}
+[48.621027] (-) TimerEvent: {}
+[48.721257] (-) TimerEvent: {}
+[48.822276] (-) TimerEvent: {}
+[48.922614] (-) TimerEvent: {}
+[49.022921] (-) TimerEvent: {}
+[49.068582] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[49.123109] (-) TimerEvent: {}
+[49.172905] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[49.223212] (-) TimerEvent: {}
+[49.323546] (-) TimerEvent: {}
+[49.424101] (-) TimerEvent: {}
+[49.524743] (-) TimerEvent: {}
+[49.596371] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[49.624856] (-) TimerEvent: {}
+[49.725677] (-) TimerEvent: {}
+[49.826704] (-) TimerEvent: {}
+[49.927526] (-) TimerEvent: {}
+[49.941355] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[49.949442] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[49.978808] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[50.027719] (-) TimerEvent: {}
+[50.128054] (-) TimerEvent: {}
+[50.228358] (-) TimerEvent: {}
+[50.328688] (-) TimerEvent: {}
+[50.429039] (-) TimerEvent: {}
+[50.529403] (-) TimerEvent: {}
+[50.629738] (-) TimerEvent: {}
+[50.664263] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[50.674909] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[50.729880] (-) TimerEvent: {}
+[50.830254] (-) TimerEvent: {}
+[50.930601] (-) TimerEvent: {}
+[51.030974] (-) TimerEvent: {}
+[51.131300] (-) TimerEvent: {}
+[51.231954] (-) TimerEvent: {}
+[51.332292] (-) TimerEvent: {}
+[51.379623] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[51.385432] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[51.432401] (-) TimerEvent: {}
+[51.532719] (-) TimerEvent: {}
+[51.633016] (-) TimerEvent: {}
+[51.733258] (-) TimerEvent: {}
+[51.833540] (-) TimerEvent: {}
+[51.933873] (-) TimerEvent: {}
+[52.034225] (-) TimerEvent: {}
+[52.035145] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[52.040371] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[52.134376] (-) TimerEvent: {}
+[52.234655] (-) TimerEvent: {}
+[52.334985] (-) TimerEvent: {}
+[52.435323] (-) TimerEvent: {}
+[52.535669] (-) TimerEvent: {}
+[52.635923] (-) TimerEvent: {}
+[52.708000] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[52.715773] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[52.736036] (-) TimerEvent: {}
+[52.836396] (-) TimerEvent: {}
+[52.937235] (-) TimerEvent: {}
+[53.038240] (-) TimerEvent: {}
+[53.139266] (-) TimerEvent: {}
+[53.240658] (-) TimerEvent: {}
+[53.341524] (-) TimerEvent: {}
+[53.356589] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[53.441664] (-) TimerEvent: {}
+[53.541935] (-) TimerEvent: {}
+[53.642479] (-) TimerEvent: {}
+[53.743064] (-) TimerEvent: {}
+[53.843414] (-) TimerEvent: {}
+[53.943707] (-) TimerEvent: {}
+[54.002209] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[54.043848] (-) TimerEvent: {}
+[54.081984] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[54.083546] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[54.085066] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[54.143968] (-) TimerEvent: {}
+[54.163865] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[54.164924] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[54.200940] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[54.244118] (-) TimerEvent: {}
+[54.284573] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[54.285670] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[54.304067] (packt_rclcpp_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[54.344250] (-) TimerEvent: {}
+[54.413827] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[54.444402] (-) TimerEvent: {}
+[54.544903] (-) TimerEvent: {}
+[54.645226] (-) TimerEvent: {}
+[54.720762] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[54.745441] (-) TimerEvent: {}
+[54.790019] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Build files have been written to: /colcon_ws/build/packt_rclcpp_demo\n'}
+[54.799601] (packt_rclcpp_demo) CommandEnded: {'returncode': 0}
+[54.803108] (packt_rclcpp_demo) JobProgress: {'identifier': 'packt_rclcpp_demo', 'progress': 'build'}
+[54.805480] (packt_rclcpp_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/colcon_ws/build/packt_rclcpp_demo', '--', '-j1', '-l1'], 'cwd': '/colcon_ws/build/packt_rclcpp_demo', 'env': OrderedDict([('HOSTNAME', '60fb2297e4d1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy'), ('PWD', '/colcon_ws/build/packt_rclcpp_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy')]), 'shell': False}
+[54.845617] (-) TimerEvent: {}
+[54.946354] (-) TimerEvent: {}
+[55.046966] (-) TimerEvent: {}
+[55.147269] (-) TimerEvent: {}
+[55.247561] (-) TimerEvent: {}
+[55.347905] (-) TimerEvent: {}
+[55.448197] (-) TimerEvent: {}
+[55.528606] (packt_rclcpp_demo) StdoutLine: {'line': b'Scanning dependencies of target listener\n'}
+[55.548299] (-) TimerEvent: {}
+[55.633478] (packt_rclcpp_demo) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\n'}
+[55.648406] (-) TimerEvent: {}
+[55.748790] (-) TimerEvent: {}
+[55.849640] (-) TimerEvent: {}
+[55.951110] (-) TimerEvent: {}
+[56.053441] (-) TimerEvent: {}
+[56.154655] (-) TimerEvent: {}
+[56.255333] (-) TimerEvent: {}
+[56.355752] (-) TimerEvent: {}
+[56.456722] (-) TimerEvent: {}
+[56.558135] (-) TimerEvent: {}
+[56.659324] (-) TimerEvent: {}
+[56.760247] (-) TimerEvent: {}
+[56.861868] (-) TimerEvent: {}
+[56.962818] (-) TimerEvent: {}
+[57.063801] (-) TimerEvent: {}
+[57.164827] (-) TimerEvent: {}
+[57.265834] (-) TimerEvent: {}
+[57.366873] (-) TimerEvent: {}
+[57.467584] (-) TimerEvent: {}
+[57.568395] (-) TimerEvent: {}
+[57.669425] (-) TimerEvent: {}
+[57.770142] (-) TimerEvent: {}
+[57.870974] (-) TimerEvent: {}
+[57.972330] (-) TimerEvent: {}
+[58.073592] (-) TimerEvent: {}
+[58.174506] (-) TimerEvent: {}
+[58.275550] (-) TimerEvent: {}
+[58.376566] (-) TimerEvent: {}
+[58.477604] (-) TimerEvent: {}
+[58.578570] (-) TimerEvent: {}
+[58.679640] (-) TimerEvent: {}
+[58.780611] (-) TimerEvent: {}
+[58.881665] (-) TimerEvent: {}
+[58.982333] (-) TimerEvent: {}
+[59.082808] (-) TimerEvent: {}
+[59.183309] (-) TimerEvent: {}
+[59.284194] (-) TimerEvent: {}
+[59.385689] (-) TimerEvent: {}
+[59.486860] (-) TimerEvent: {}
+[59.587568] (-) TimerEvent: {}
+[59.688180] (-) TimerEvent: {}
+[59.789746] (-) TimerEvent: {}
+[59.891282] (-) TimerEvent: {}
+[59.992569] (-) TimerEvent: {}
+[60.093335] (-) TimerEvent: {}
+[60.194561] (-) TimerEvent: {}
+[60.295349] (-) TimerEvent: {}
+[60.396383] (-) TimerEvent: {}
+[60.497898] (-) TimerEvent: {}
+[60.598557] (-) TimerEvent: {}
+[60.699119] (-) TimerEvent: {}
+[60.799961] (-) TimerEvent: {}
+[60.901007] (-) TimerEvent: {}
+[61.002044] (-) TimerEvent: {}
+[61.103226] (-) TimerEvent: {}
+[61.204032] (-) TimerEvent: {}
+[61.305140] (-) TimerEvent: {}
+[61.406057] (-) TimerEvent: {}
+[61.507220] (-) TimerEvent: {}
+[61.608091] (-) TimerEvent: {}
+[61.709237] (-) TimerEvent: {}
+[61.810098] (-) TimerEvent: {}
+[61.911169] (-) TimerEvent: {}
+[62.012063] (-) TimerEvent: {}
+[62.113364] (-) TimerEvent: {}
+[62.214179] (-) TimerEvent: {}
+[62.315390] (-) TimerEvent: {}
+[62.415808] (-) TimerEvent: {}
+[62.516735] (-) TimerEvent: {}
+[62.617339] (-) TimerEvent: {}
+[62.718565] (-) TimerEvent: {}
+[62.820265] (-) TimerEvent: {}
+[62.921564] (-) TimerEvent: {}
+[63.022855] (-) TimerEvent: {}
+[63.123696] (-) TimerEvent: {}
+[63.227174] (-) TimerEvent: {}
+[63.328557] (-) TimerEvent: {}
+[63.429329] (-) TimerEvent: {}
+[63.530422] (-) TimerEvent: {}
+[63.630997] (-) TimerEvent: {}
+[63.731267] (-) TimerEvent: {}
+[63.831591] (-) TimerEvent: {}
+[63.931948] (-) TimerEvent: {}
+[63.954429] (packt_rclcpp_demo) StdoutLine: {'line': b'[ 50%] Linking CXX executable listener\n'}
+[64.032078] (-) TimerEvent: {}
+[64.132376] (-) TimerEvent: {}
+[64.232684] (-) TimerEvent: {}
+[64.332980] (-) TimerEvent: {}
+[64.433303] (-) TimerEvent: {}
+[64.533633] (-) TimerEvent: {}
+[64.633933] (-) TimerEvent: {}
+[64.734288] (-) TimerEvent: {}
+[64.834598] (-) TimerEvent: {}
+[64.934872] (-) TimerEvent: {}
+[65.035172] (-) TimerEvent: {}
+[65.135471] (-) TimerEvent: {}
+[65.235772] (-) TimerEvent: {}
+[65.336102] (-) TimerEvent: {}
+[65.436422] (-) TimerEvent: {}
+[65.536734] (-) TimerEvent: {}
+[65.637052] (-) TimerEvent: {}
+[65.737369] (-) TimerEvent: {}
+[65.837705] (-) TimerEvent: {}
+[65.938301] (-) TimerEvent: {}
+[66.039026] (-) TimerEvent: {}
+[66.139402] (-) TimerEvent: {}
+[66.239667] (-) TimerEvent: {}
+[66.339990] (-) TimerEvent: {}
+[66.440300] (-) TimerEvent: {}
+[66.540609] (-) TimerEvent: {}
+[66.641407] (-) TimerEvent: {}
+[66.742385] (-) TimerEvent: {}
+[66.842679] (-) TimerEvent: {}
+[66.942968] (-) TimerEvent: {}
+[67.043249] (-) TimerEvent: {}
+[67.144056] (-) TimerEvent: {}
+[67.244955] (-) TimerEvent: {}
+[67.270173] (packt_rclcpp_demo) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[67.345114] (-) TimerEvent: {}
+[67.447640] (-) TimerEvent: {}
+[67.549440] (-) TimerEvent: {}
+[67.649734] (-) TimerEvent: {}
+[67.750100] (-) TimerEvent: {}
+[67.815254] (packt_rclcpp_demo) StdoutLine: {'line': b'Scanning dependencies of target talker\n'}
+[67.850616] (-) TimerEvent: {}
+[67.929484] (packt_rclcpp_demo) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\n'}
+[67.950765] (-) TimerEvent: {}
+[68.051442] (-) TimerEvent: {}
+[68.152223] (-) TimerEvent: {}
+[68.253704] (-) TimerEvent: {}
+[68.354785] (-) TimerEvent: {}
+[68.455729] (-) TimerEvent: {}
+[68.556815] (-) TimerEvent: {}
+[68.657771] (-) TimerEvent: {}
+[68.758834] (-) TimerEvent: {}
+[68.859896] (-) TimerEvent: {}
+[68.960350] (-) TimerEvent: {}
+[69.061400] (-) TimerEvent: {}
+[69.162379] (-) TimerEvent: {}
+[69.263428] (-) TimerEvent: {}
+[69.364393] (-) TimerEvent: {}
+[69.465424] (-) TimerEvent: {}
+[69.566427] (-) TimerEvent: {}
+[69.667490] (-) TimerEvent: {}
+[69.768349] (-) TimerEvent: {}
+[69.869490] (-) TimerEvent: {}
+[69.970224] (-) TimerEvent: {}
+[70.071074] (-) TimerEvent: {}
+[70.172279] (-) TimerEvent: {}
+[70.272636] (-) TimerEvent: {}
+[70.373620] (-) TimerEvent: {}
+[70.474652] (-) TimerEvent: {}
+[70.575589] (-) TimerEvent: {}
+[70.676974] (-) TimerEvent: {}
+[70.778666] (-) TimerEvent: {}
+[70.879680] (-) TimerEvent: {}
+[70.980669] (-) TimerEvent: {}
+[71.082221] (-) TimerEvent: {}
+[71.183426] (-) TimerEvent: {}
+[71.283789] (-) TimerEvent: {}
+[71.384552] (-) TimerEvent: {}
+[71.486165] (-) TimerEvent: {}
+[71.587557] (-) TimerEvent: {}
+[71.688815] (-) TimerEvent: {}
+[71.789807] (-) TimerEvent: {}
+[71.891081] (-) TimerEvent: {}
+[71.992346] (-) TimerEvent: {}
+[72.093369] (-) TimerEvent: {}
+[72.194420] (-) TimerEvent: {}
+[72.295354] (-) TimerEvent: {}
+[72.396411] (-) TimerEvent: {}
+[72.497120] (-) TimerEvent: {}
+[72.597943] (-) TimerEvent: {}
+[72.699431] (-) TimerEvent: {}
+[72.800483] (-) TimerEvent: {}
+[72.901097] (-) TimerEvent: {}
+[73.001396] (-) TimerEvent: {}
+[73.065689] (packt_rclcpp_demo) StdoutLine: {'line': b'[100%] Linking CXX executable talker\n'}
+[73.101542] (-) TimerEvent: {}
+[73.201874] (-) TimerEvent: {}
+[73.302198] (-) TimerEvent: {}
+[73.402538] (-) TimerEvent: {}
+[73.502849] (-) TimerEvent: {}
+[73.603192] (-) TimerEvent: {}
+[73.703506] (-) TimerEvent: {}
+[73.803881] (-) TimerEvent: {}
+[73.904212] (-) TimerEvent: {}
+[74.005119] (-) TimerEvent: {}
+[74.105863] (-) TimerEvent: {}
+[74.206617] (-) TimerEvent: {}
+[74.306954] (-) TimerEvent: {}
+[74.407196] (-) TimerEvent: {}
+[74.507570] (-) TimerEvent: {}
+[74.607902] (-) TimerEvent: {}
+[74.708385] (packt_rclcpp_demo) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[74.710265] (-) TimerEvent: {}
+[74.792295] (packt_rclcpp_demo) CommandEnded: {'returncode': 0}
+[74.810402] (-) TimerEvent: {}
+[74.910770] (-) TimerEvent: {}
+[75.011061] (-) TimerEvent: {}
+[75.081128] (packt_rclcpp_demo) JobProgress: {'identifier': 'packt_rclcpp_demo', 'progress': 'install'}
+[75.083509] (packt_rclcpp_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/colcon_ws/build/packt_rclcpp_demo'], 'cwd': '/colcon_ws/build/packt_rclcpp_demo', 'env': OrderedDict([('HOSTNAME', '60fb2297e4d1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy'), ('PWD', '/colcon_ws/build/packt_rclcpp_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy')]), 'shell': False}
+[75.111189] (-) TimerEvent: {}
+[75.151357] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[75.165534] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker\n'}
+[75.211300] (-) TimerEvent: {}
+[75.227161] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker" to ""\n'}
+[75.238824] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener\n'}
+[75.311445] (-) TimerEvent: {}
+[75.326372] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener" to ""\n'}
+[75.347964] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/package_run_dependencies/packt_rclcpp_demo\n'}
+[75.396189] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/parent_prefix_path/packt_rclcpp_demo\n'}
+[75.411589] (-) TimerEvent: {}
+[75.436026] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.sh\n'}
+[75.465419] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.dsv\n'}
+[75.496077] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.sh\n'}
+[75.511702] (-) TimerEvent: {}
+[75.525407] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.dsv\n'}
+[75.558467] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.bash\n'}
+[75.588199] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.sh\n'}
+[75.612629] (-) TimerEvent: {}
+[75.660764] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.zsh\n'}
+[75.698093] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.dsv\n'}
+[75.712753] (-) TimerEvent: {}
+[75.732106] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.dsv\n'}
+[75.814007] (-) TimerEvent: {}
+[75.830733] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/packages/packt_rclcpp_demo\n'}
+[75.884763] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig.cmake\n'}
+[75.914139] (-) TimerEvent: {}
+[75.919503] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig-version.cmake\n'}
+[75.956425] (packt_rclcpp_demo) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.xml\n'}
+[75.986772] (packt_rclcpp_demo) CommandEnded: {'returncode': 0}
+[76.014275] (-) TimerEvent: {}
+[76.114600] (-) TimerEvent: {}
+[76.114929] (packt_rclcpp_demo) JobEnded: {'identifier': 'packt_rclcpp_demo', 'rc': 0}
+[76.123256] (custom_executor) JobStarted: {'identifier': 'custom_executor'}
+[76.214777] (-) TimerEvent: {}
+[76.315251] (-) TimerEvent: {}
+[76.416522] (-) TimerEvent: {}
+[76.517193] (-) TimerEvent: {}
+[76.618409] (-) TimerEvent: {}
+[76.719087] (-) TimerEvent: {}
+[76.820012] (-) TimerEvent: {}
+[76.880988] (custom_executor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/colcon_ws/build/custom_executor', 'build', '--build-base', '/colcon_ws/build/custom_executor/build', 'install', '--prefix', '/colcon_ws/install/custom_executor', '--record', '/colcon_ws/build/custom_executor/install.log', '--single-version-externally-managed'], 'cwd': '/colcon_ws/src/custom_executor', 'env': {'HOSTNAME': '60fb2297e4d1', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/colcon_ws/install/composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/colcon_ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/colcon_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/custom_executor:/colcon_ws/install/composition:/opt/ros/foxy', 'PWD': '/colcon_ws/build/custom_executor', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/colcon_ws/install/packt_rclpy_demo/lib/python3.8/site-packages:/colcon_ws/install/custom_executor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/colcon_ws/install/packt_rclcpp_demo:/colcon_ws/install/composition'}, 'shell': False}
+[76.920173] (-) TimerEvent: {}
+[77.020891] (-) TimerEvent: {}
+[77.121793] (-) TimerEvent: {}
+[77.222310] (-) TimerEvent: {}
+[77.323474] (-) TimerEvent: {}
+[77.424848] (-) TimerEvent: {}
+[77.513784] (custom_executor) StdoutLine: {'line': b'running egg_info\n'}
+[77.519064] (custom_executor) StdoutLine: {'line': b'creating /colcon_ws/build/custom_executor/custom_executor.egg-info\n'}
+[77.524979] (custom_executor) StdoutLine: {'line': b'writing /colcon_ws/build/custom_executor/custom_executor.egg-info/PKG-INFO\n'}
+[77.526085] (-) TimerEvent: {}
+[77.535658] (custom_executor) StdoutLine: {'line': b'writing dependency_links to /colcon_ws/build/custom_executor/custom_executor.egg-info/dependency_links.txt\n'}
+[77.543118] (custom_executor) StdoutLine: {'line': b'writing entry points to /colcon_ws/build/custom_executor/custom_executor.egg-info/entry_points.txt\n'}
+[77.548730] (custom_executor) StdoutLine: {'line': b'writing requirements to /colcon_ws/build/custom_executor/custom_executor.egg-info/requires.txt\n'}
+[77.552112] (custom_executor) StdoutLine: {'line': b'writing top-level names to /colcon_ws/build/custom_executor/custom_executor.egg-info/top_level.txt\n'}
+[77.563544] (custom_executor) StdoutLine: {'line': b"writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'\n"}
+[77.626487] (-) TimerEvent: {}
+[77.666416] (custom_executor) StdoutLine: {'line': b"reading manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'\n"}
+[77.696409] (custom_executor) StdoutLine: {'line': b"writing manifest file '/colcon_ws/build/custom_executor/custom_executor.egg-info/SOURCES.txt'\n"}
+[77.701351] (custom_executor) StdoutLine: {'line': b'running build\n'}
+[77.702353] (custom_executor) StdoutLine: {'line': b'running build_py\n'}
+[77.710019] (custom_executor) StdoutLine: {'line': b'creating /colcon_ws/build/custom_executor/build\n'}
+[77.712875] (custom_executor) StdoutLine: {'line': b'creating /colcon_ws/build/custom_executor/build/lib\n'}
+[77.716045] (custom_executor) StdoutLine: {'line': b'creating /colcon_ws/build/custom_executor/build/lib/custom_executor\n'}
+[77.724172] (custom_executor) StdoutLine: {'line': b'copying custom_executor/__init__.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor\n'}
+[77.726598] (-) TimerEvent: {}
+[77.737746] (custom_executor) StdoutLine: {'line': b'copying custom_executor/custom_executor_example.py -> /colcon_ws/build/custom_executor/build/lib/custom_executor\n'}
+[77.763990] (custom_executor) StdoutLine: {'line': b'running install\n'}
+[77.769611] (custom_executor) StdoutLine: {'line': b'running install_lib\n'}
+[77.783466] (custom_executor) StdoutLine: {'line': b'creating /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor\n'}
+[77.794263] (custom_executor) StdoutLine: {'line': b'copying /colcon_ws/build/custom_executor/build/lib/custom_executor/custom_executor_example.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor\n'}
+[77.814218] (custom_executor) StdoutLine: {'line': b'copying /colcon_ws/build/custom_executor/build/lib/custom_executor/__init__.py -> /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor\n'}
+[77.826717] (-) TimerEvent: {}
+[77.833654] (custom_executor) StdoutLine: {'line': b'byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/custom_executor_example.py to custom_executor_example.cpython-38.pyc\n'}
+[77.859652] (custom_executor) StdoutLine: {'line': b'byte-compiling /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor/__init__.py to __init__.cpython-38.pyc\n'}
+[77.880366] (custom_executor) StdoutLine: {'line': b'running install_egg_info\n'}
+[77.893027] (custom_executor) StdoutLine: {'line': b'Copying /colcon_ws/build/custom_executor/custom_executor.egg-info to /colcon_ws/install/custom_executor/lib/python3.8/site-packages/custom_executor-0.0.0-py3.8.egg-info\n'}
+[77.926842] (-) TimerEvent: {}
+[78.021259] (custom_executor) StdoutLine: {'line': b'running install_scripts\n'}
+[78.027163] (-) TimerEvent: {}
+[78.076405] (custom_executor) StdoutLine: {'line': b'Installing custom_executor_example script to /colcon_ws/install/custom_executor/lib/custom_executor\n'}
+[78.086638] (custom_executor) StdoutLine: {'line': b"writing list of installed files to '/colcon_ws/build/custom_executor/install.log'\n"}
+[78.128183] (custom_executor) CommandEnded: {'returncode': 0}
+[78.129807] (-) TimerEvent: {}
+[78.230113] (-) TimerEvent: {}
+[78.245762] (custom_executor) JobEnded: {'identifier': 'custom_executor', 'rc': 0}
+[78.252045] (-) EventReactorShutdown: {}
