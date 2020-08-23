@@ -44,6 +44,7 @@ C:\> docker exec -it <container-identifier> bash
 
 - http://docs.ros2.org/latest/api/rclcpp/index.html
 - https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/#rclcpp
+- http://wiki.ros.org/CppStyleGuide
 
 1. Compile with ROS 2's colcon build tool
 ```bash
@@ -69,6 +70,7 @@ root@123456abcdef:/colcon_ws# ros2 run packt_rclcpp_demo talker
 
 - http://docs.ros2.org/latest/api/rclpy/index.html
 - https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/#rclpy
+- http://wiki.ros.org/PyStyleGuide
 
 1. Compile with ROS 2's colcon build tool
 ```bash
