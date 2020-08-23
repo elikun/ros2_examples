@@ -1,0 +1,82 @@
+[0.071s] Invoking command in '/colcon_ws/build/packt_rclcpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/packt_rclcpp_demo -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/packt_rclcpp_demo
+[0.417s] -- The C compiler identification is GNU 9.3.0
+[0.765s] -- The CXX compiler identification is GNU 9.3.0
+[0.833s] -- Check for working C compiler: /usr/bin/cc
+[1.616s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.624s] -- Detecting C compiler ABI info
+[2.351s] -- Detecting C compiler ABI info - done
+[2.396s] -- Detecting C compile features
+[2.398s] -- Detecting C compile features - done
+[2.440s] -- Check for working CXX compiler: /usr/bin/c++
+[3.194s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.202s] -- Detecting CXX compiler ABI info
+[3.959s] -- Detecting CXX compiler ABI info - done
+[4.009s] -- Detecting CXX compile features
+[4.097s] -- Detecting CXX compile features - done
+[4.175s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.485s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[4.487s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.460s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.840s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.954s] -- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.575s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.690s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.491s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.533s] -- Looking for pthread.h
+[8.421s] -- Looking for pthread.h - found
+[8.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.185s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.460s] -- Looking for pthread_create in pthreads
+[10.400s] -- Looking for pthread_create in pthreads - not found
+[10.406s] -- Looking for pthread_create in pthread
+[11.135s] -- Looking for pthread_create in pthread - found
+[11.142s] -- Found Threads: TRUE  
+[11.805s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.660s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.746s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.748s] -- Configured cppcheck include dirs: 
+[12.749s] -- Configured cppcheck exclude dirs and/or files: 
+[12.833s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.835s] -- Configured cpplint exclude dirs and/or files: 
+[12.873s] -- Added test 'lint_cmake' to check CMake code style
+[12.966s] -- Added test 'uncrustify' to check C / C++ code style
+[12.967s] -- Configured uncrustify additional arguments: 
+[12.993s] -- Added test 'xmllint' to check XML markup files
+[13.108s] -- Configuring done
+[13.451s] -- Generating done
+[13.535s] -- Build files have been written to: /colcon_ws/build/packt_rclcpp_demo
+[13.544s] Invoked command in '/colcon_ws/build/packt_rclcpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake /colcon_ws/src/packt_rclcpp_demo -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/packt_rclcpp_demo
+[13.554s] Invoking command in '/colcon_ws/build/packt_rclcpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/packt_rclcpp_demo -- -j1 -l1
+[14.330s] Scanning dependencies of target listener
+[14.446s] [ 25%] Building CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o
+[22.907s] [ 50%] Linking CXX executable listener
+[26.327s] [ 50%] Built target listener
+[27.438s] Scanning dependencies of target talker
+[27.556s] [ 75%] Building CXX object CMakeFiles/talker.dir/src/publisher.cpp.o
+[32.811s] [100%] Linking CXX executable talker
+[34.476s] [100%] Built target talker
+[34.562s] Invoked command in '/colcon_ws/build/packt_rclcpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --build /colcon_ws/build/packt_rclcpp_demo -- -j1 -l1
+[34.893s] Invoking command in '/colcon_ws/build/packt_rclcpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/packt_rclcpp_demo
+[34.959s] -- Install configuration: ""
+[34.974s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker
+[35.040s] -- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker" to ""
+[35.132s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener
+[35.228s] -- Set runtime path of "/colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/listener" to ""
+[35.251s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/package_run_dependencies/packt_rclcpp_demo
+[35.306s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/parent_prefix_path/packt_rclcpp_demo
+[35.352s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.sh
+[35.386s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/ament_prefix_path.dsv
+[35.427s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.sh
+[35.491s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/environment/path.dsv
+[35.529s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.bash
+[35.566s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.sh
+[35.602s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.zsh
+[35.640s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/local_setup.dsv
+[35.676s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.dsv
+[35.722s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/ament_index/resource_index/packages/packt_rclcpp_demo
+[35.772s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig.cmake
+[35.809s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig-version.cmake
+[35.846s] -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.xml
+[35.882s] Invoked command in '/colcon_ws/build/packt_rclcpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/colcon_ws/install/packt_rclpy_demo:/colcon_ws/install/custom_executor:/opt/ros/foxy /usr/bin/cmake --install /colcon_ws/build/packt_rclcpp_demo

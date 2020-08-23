@@ -80,7 +80,6 @@ listener_component_EXTERNAL_OBJECTS =
 liblistener_component.so: CMakeFiles/listener_component.dir/src/listener_component.cpp.o
 liblistener_component.so: CMakeFiles/listener_component.dir/build.make
 liblistener_component.so: /opt/ros/foxy/lib/libcomponent_manager.so
-liblistener_component.so: /opt/ros/foxy/lib/libclass_loader.so
 liblistener_component.so: /opt/ros/foxy/lib/librclcpp.so
 liblistener_component.so: /opt/ros/foxy/lib/liblibstatistics_collector.so
 liblistener_component.so: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -111,8 +110,9 @@ liblistener_component.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesuppo
 liblistener_component.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 liblistener_component.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 liblistener_component.so: /opt/ros/foxy/lib/libtracetools.so
-liblistener_component.so: /opt/ros/foxy/lib/libconsole_bridge.so.1.0
 liblistener_component.so: /opt/ros/foxy/lib/libament_index_cpp.so
+liblistener_component.so: /opt/ros/foxy/lib/libclass_loader.so
+liblistener_component.so: /opt/ros/foxy/lib/libconsole_bridge.so.1.0
 liblistener_component.so: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
 liblistener_component.so: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so
 liblistener_component.so: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so

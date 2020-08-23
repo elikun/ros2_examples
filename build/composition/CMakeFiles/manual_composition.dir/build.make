@@ -108,6 +108,8 @@ manual_composition: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_int
 manual_composition: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 manual_composition: /opt/ros/foxy/lib/libtracetools.so
 manual_composition: /opt/ros/foxy/lib/libament_index_cpp.so
+manual_composition: /opt/ros/foxy/lib/libclass_loader.so
+manual_composition: /opt/ros/foxy/lib/libconsole_bridge.so.1.0
 manual_composition: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
 manual_composition: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so
 manual_composition: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so
@@ -118,8 +120,6 @@ manual_composition: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
 manual_composition: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so
 manual_composition: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 manual_composition: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-manual_composition: /opt/ros/foxy/lib/libclass_loader.so
-manual_composition: /opt/ros/foxy/lib/libconsole_bridge.so.1.0
 manual_composition: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 manual_composition: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 manual_composition: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so

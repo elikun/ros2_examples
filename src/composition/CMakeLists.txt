@@ -12,7 +12,6 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(class_loader REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(rcutils REQUIRED)
@@ -31,11 +30,9 @@ target_compile_definitions(talker_component
 ament_target_dependencies(talker_component
   "rclcpp"
   "rclcpp_components"
-  "class_loader"
   "std_msgs")
 # Register the library with the pluginlib
 rclcpp_components_register_nodes(talker_component "composition::Talker")
-#rclcpp_register_node_plugins(talker_component "composition::Talker")
 set(node_plugins "${node_plugins}composition::Talker;$<TARGET_FILE:talker_component>\n")
 
 add_library(listener_component SHARED
@@ -45,10 +42,8 @@ target_compile_definitions(listener_component
 ament_target_dependencies(listener_component
   "rclcpp"
   "rclcpp_components"
-  "class_loader"
   "std_msgs")
 rclcpp_components_register_nodes(listener_component "composition::Listener")
-#rclcpp_register_node_plugins(listener_component "composition::Listener")
 set(node_plugins "${node_plugins}composition::Listener;$<TARGET_FILE:listener_component>\n")
 
 add_executable(manual_composition

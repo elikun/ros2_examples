@@ -1,11 +1,11 @@
 Starting >>> packt_rclpy_demo
-[0.643s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.644s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/custom_executor' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.646s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/composition' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.648s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
-[0.650s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/composition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
-[1.102s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
-[1.433s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.672s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.673s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/custom_executor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.675s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/colcon_ws/install/composition' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.677s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/packt_rclcpp_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.679s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/colcon_ws/install/composition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.146s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.162s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'packt_rclpy_demo' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
 running egg_info
 creating /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info
 writing /colcon_ws/build/packt_rclpy_demo/packt_rclpy_demo.egg-info/PKG-INFO
@@ -39,7 +39,7 @@ running install_scripts
 Installing listener script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
 Installing talker script to /colcon_ws/install/packt_rclpy_demo/lib/packt_rclpy_demo
 writing list of installed files to '/colcon_ws/build/packt_rclpy_demo/install.log'
-Finished <<< packt_rclpy_demo [3.86s]
+Finished <<< packt_rclpy_demo [2.02s]
 Starting >>> composition
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
@@ -58,7 +58,6 @@ Starting >>> composition
 -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
 -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Found class_loader: 2.0.1 (/opt/ros/foxy/share/class_loader/cmake)
 -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
 -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
 -- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
@@ -116,7 +115,7 @@ Scanning dependencies of target manual_composition
 -- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig.cmake
 -- Installing: /colcon_ws/install/composition/share/composition/cmake/compositionConfig-version.cmake
 -- Installing: /colcon_ws/install/composition/share/composition/package.xml
-Finished <<< composition [40.4s]
+Finished <<< composition [39.8s]
 Starting >>> packt_rclcpp_demo
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
@@ -170,10 +169,10 @@ Scanning dependencies of target listener
 [ 25%] Building CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o
 [ 50%] Linking CXX executable listener
 [ 50%] Built target listener
-[Processing: packt_rclcpp_demo]
 Scanning dependencies of target talker
 [ 75%] Building CXX object CMakeFiles/talker.dir/src/publisher.cpp.o
 [100%] Linking CXX executable talker
+[Processing: packt_rclcpp_demo]
 [100%] Built target talker
 -- Install configuration: ""
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/lib/packt_rclcpp_demo/talker
@@ -195,10 +194,10 @@ Scanning dependencies of target talker
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig.cmake
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/cmake/packt_rclcpp_demoConfig-version.cmake
 -- Installing: /colcon_ws/install/packt_rclcpp_demo/share/packt_rclcpp_demo/package.xml
-Finished <<< packt_rclcpp_demo [43.4s]
+Finished <<< packt_rclcpp_demo [36.0s]
 Starting >>> custom_executor
-[89.059s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
-[89.073s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[79.208s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[79.223s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'custom_executor' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
 running egg_info
 creating /colcon_ws/build/custom_executor/custom_executor.egg-info
 writing /colcon_ws/build/custom_executor/custom_executor.egg-info/PKG-INFO
@@ -228,6 +227,6 @@ Copying /colcon_ws/build/custom_executor/custom_executor.egg-info to /colcon_ws/
 running install_scripts
 Installing custom_executor_example script to /colcon_ws/install/custom_executor/lib/custom_executor
 writing list of installed files to '/colcon_ws/build/custom_executor/install.log'
-Finished <<< custom_executor [2.93s]
+Finished <<< custom_executor [2.22s]
 
-Summary: 4 packages finished [1min 31s]
+Summary: 4 packages finished [1min 21s]

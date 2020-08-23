@@ -94,6 +94,16 @@ root@123456abcdef:/colcon_ws# ros2 run packt_rclpy_demo talker
 
 # Other useful commands
 
+- List existing ROS 2 nodes
+```bash
+root@123456abcdef:/colcon_ws# ros2 node list
+```
+
+- Get more info on '/publisher' node
+```bash
+root@123456abcdef:/colcon_ws# ros2 node info /publisher
+```
+
 - List existing ROS 2 topics
 ```bash
 root@123456abcdef:/colcon_ws# ros2 topic list
@@ -102,6 +112,11 @@ root@123456abcdef:/colcon_ws# ros2 topic list
 - "Peek" into the contents of the '/chatter' topic
 ```bash
 root@123456abcdef:/colcon_ws# ros2 topic echo chatter
+```
+
+- Publish a ROS 2 topic called '/estop' manually
+```bash
+root@123456abcdef:/colcon_ws# ros2 topic pub /estop std_msgs/String "data: Stop"
 ```
 
 - Initialize a C++ ROS 2 Package named packt_rclcpp_demo
@@ -114,3 +129,9 @@ root@123456abcdef:/colcon_ws# ros2 pkg create packt_rclcpp_demo
 root@123456abcdef:/colcon_ws# rm -rf build install log colcon_build.log
 ```
 
+---
+
+# Other useful links
+
+- https://index.ros.org/doc/ros2/Tutorials/
+- https://github.com/ros2/examples

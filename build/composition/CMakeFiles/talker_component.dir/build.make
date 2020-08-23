@@ -80,7 +80,6 @@ talker_component_EXTERNAL_OBJECTS =
 libtalker_component.so: CMakeFiles/talker_component.dir/src/talker_component.cpp.o
 libtalker_component.so: CMakeFiles/talker_component.dir/build.make
 libtalker_component.so: /opt/ros/foxy/lib/libcomponent_manager.so
-libtalker_component.so: /opt/ros/foxy/lib/libclass_loader.so
 libtalker_component.so: /opt/ros/foxy/lib/librclcpp.so
 libtalker_component.so: /opt/ros/foxy/lib/liblibstatistics_collector.so
 libtalker_component.so: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -111,8 +110,9 @@ libtalker_component.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport
 libtalker_component.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 libtalker_component.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 libtalker_component.so: /opt/ros/foxy/lib/libtracetools.so
-libtalker_component.so: /opt/ros/foxy/lib/libconsole_bridge.so.1.0
 libtalker_component.so: /opt/ros/foxy/lib/libament_index_cpp.so
+libtalker_component.so: /opt/ros/foxy/lib/libclass_loader.so
+libtalker_component.so: /opt/ros/foxy/lib/libconsole_bridge.so.1.0
 libtalker_component.so: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
 libtalker_component.so: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so
 libtalker_component.so: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so
